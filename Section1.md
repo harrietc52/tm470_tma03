@@ -1,4 +1,5 @@
 # Section 1: Draft Project report
+(3682 words)
 
 ## Problem description
 ### Nature and context of the problem

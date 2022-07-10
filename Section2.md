@@ -1,4 +1,5 @@
-# Section 2: Review
+# Section 2: Review 
+(3370 words)
 
 ## Review of current stage of project work
 
@@ -81,7 +82,7 @@ Table 3: List of Skills
 
 Gathering and analysising information for the literature review's is something I have found quite difficult. At the start of the project, I wasn't aware of what a literature review was but attending a Library services tutorial helped understand how to do the pratical side of things. I attended this quite late on, and I would have benefitted from reading the resources and practising earlier. Although I find it challenges, it has probable been a biggest learning and an activity I have started to see the real benefits from. 
 
-Nevertheless, I have started the see the benefit from Literature reviews and performing reseach as a whole. Legal reseach has made me aware of GDPR rules that I wouldn't have previously considerred, such as "Right to Erasure", or the differences between Personal Identifiable data and pseudonymous data, such as usernames, and how this affects the system. I particularly enjoyed learning about the benefits of home growing; environmental, mental and physical and software accessible when researching EDI concerns, and how this has affected UX. For example, it had I've considered things for granted such as a good colour scheme, and simple textual descriptions, and regarding UX, simple navigation and feedback alerts for users. I will definitely be more aware of EDI concerns when builing future software projects with work. 
+Nevertheless, I have started the see the benefit from Literature reviews and performing reseach as a whole. Legal reseach has made me aware of GDPR rules that I wouldn't have previously considerred, such as "Right to Erasure", or the differences between Personal Identifiable data and pseudonymous data, such as usernames, and how this affects the system. I particularly enjoyed learning about the benefits of home growing; environmental, mental and physical and software accessible when researching EDI concerns, and how this has affected UX. For example, it had I've considered things for granted such as a good colour scheme, and simple textual descriptions, and regarding UX, simple navigation and feedback alerts for users. I will definitely be more aware of EDI concerns when builing future software projects with work. Additionally, making "IT for Everyone" is a BCS Code of Conduct principle, which I am trying to adhere to. [@bcs_bcs_nodate]
 
 Mocking up the HCI was also a useful activity. LucidChart [@lucid_documents_nodate] was easy to use, and provided in built mobile components. Drawings could then be replicated and small changes made. They also helped me identify which components could be reused, for example, the Vegetable Details page. As React Native is a component language, the mock-up elements map quite closely to what the code components would be. For example, "screens" are the other most component, with smaller "child" components such as lists, and list elements. After reading a few chapters on "Patterns", again it made me realise design we subconsiously expect, and how much of it is to do with the movement of a thumb. Shared components such as Vegetable Lists or Details were discovered during mocking-up which then influenced the way I coded those components, as I had reuse in mind.
 
@@ -101,13 +102,15 @@ Finally, more than anything, I have learnt to manage my time during this project
 
 ## Tutor
 
-A few observations on things I will fix for the EMA:
-- There are a couple of appendix's which were slotted in late, I have named them with `b`
-- Some of the Appendix's are still in draft form, these will be written up properly for the EMA
-- I will add a Glossary for the EMA
-- I am aware of your previous feedback "Include A proper consideration of professional issues  (see BCS Code of Conduct)". I didn't find the opporunity to add that in this TMA, but I will make sure to for the EMA
+A few observations and things I will fix for the EMA:
+- Some Appendix's were slotted in late, with the suffix `b`
+- Write up Appendix's, as some are in bullet points
+- Add a Glossary 
+- Properly consider professional issues (BCS Code of Conduct)
+- Update the Volere Template
 
 A few questions:
+* Please comment on the above, if you think they are all worth doing
 * Should I include another resources table with smaller supplement materials, such as all the stack overflow posts I've used
 * Is the formality level of my writing ok
 * Which brings me on to, who is the intended audience of this report
