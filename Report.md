@@ -75,10 +75,53 @@ Appendix 2: Warbottle membership figures – 1900–1985
 
 ## Appendix 1
 
-initial research 
-(tma02 A1)
+Responses from the Requirement Gathering Questionnaire
+
+![questionnaire1.png](../../Zettlr_Images/questionnaire1.png)
+
+![questionnaire2.png](../../Zettlr_Images/questionnaire2.png)
+
 
 ## Appendix 2
+
+how project is based  off
+
+**domain**
+had an allotment for 4 years, verying suggest, lots of tips. where the main questions were around "when", not what or where. (ref allotment book, month by month)
+
+**TM354** software development - following the course material, specifically case study. as a waterfall approach. becan with domain research, requirments, modelling, design, analysis,  now implementation. database design?
+design and software implementation project typically focus on a problem which can be solved with a simple software application
+process and modelling techniques for the design, architecture and testing of software solutions
+UML techniques
+waterfall vs Agile development
+collection of requirements
+the development of a design with appropriate research
+the development of a complete or partial software solution or suggestions for implementation
+evaluation of the design and software if produced (stakeholders)
+Scope: if problem is large, identify a smaller component which can be solved in isolation, providing significant value
+Projects will typically build in evaluation of the design, the software product and the method used to build it
+architectures and design patterns. Make use of the Gang of Four book  (Gamma et al, 1995) and Shaw and Garlan (1996)
+Evaluating and using testing methods. Evaluate test techniques such as test-driven development for your project: what benefits do they bring?
+A discussion of quality attributes and trade-offs within the developed system.
+testing/ tactics
+
+**TM352**
+mobile development, 
+web services and architecture
+web security issues
+web application design, accessibility and interaction
+standards and their role
+mobile application design and development
+approaches to mobile application development
+
+**Place of work**
+multiple projects in Rails with both relational and non-realtional databases. here, used mysql for relational becuasse… this includes rest api in JSON
+also worked on projects using Vue Javascript front end framework. 
+this is first project using react
+and mobile development
+
+
+## Appendix 3
 
 moscow prioritisiation
 
@@ -125,57 +168,7 @@ Version 3: TMA03
 Table xx: Version 3 of Mosco prioritisation (Appendix xx, version 1 and 2)
 
 
-
-## Appendix 3
-
-2nd questionaire
-
-timeline/tasks/calendar
-
 ## Appendix 4
-
-how project is based  off
-
-**domain**
-had an allotment for 4 years, verying suggest, lots of tips. where the main questions were around "when", not what or where. (ref allotment book, month by month)
-
-**TM354** software development - following the course material, specifically case study. as a waterfall approach. becan with domain research, requirments, modelling, design, analysis,  now implementation. database design?
-design and software implementation project typically focus on a problem which can be solved with a simple software application
-process and modelling techniques for the design, architecture and testing of software solutions
-UML techniques
-waterfall vs Agile development
-collection of requirements
-the development of a design with appropriate research
-the development of a complete or partial software solution or suggestions for implementation
-evaluation of the design and software if produced (stakeholders)
-Scope: if problem is large, identify a smaller component which can be solved in isolation, providing significant value
-Projects will typically build in evaluation of the design, the software product and the method used to build it
-architectures and design patterns. Make use of the Gang of Four book  (Gamma et al, 1995) and Shaw and Garlan (1996)
-Evaluating and using testing methods. Evaluate test techniques such as test-driven development for your project: what benefits do they bring?
-A discussion of quality attributes and trade-offs within the developed system.
-testing/ tactics
-
-**TM352**
-mobile development, 
-web services and architecture
-web security issues
-web application design, accessibility and interaction
-standards and their role
-mobile application design and development
-approaches to mobile application development
-
-**Place of work**
-multiple projects in Rails with both relational and non-realtional databases. here, used mysql for relational becuasse… this includes rest api in JSON
-also worked on projects using Vue Javascript front end framework. 
-this is first project using react
-and mobile development
-
-
-## Appendix 5
-EDI and LSE&P issues
-
-
-## Appendix 6
 
 software development lifecycle comparison
 
@@ -191,7 +184,7 @@ Lifecycle choices from TMA01 and WaterScrumFall
 | Documentation | Agile documents via story cards, code, code comments                                                                         | Requirement are captured in formal, comprehensive documents, which are time consuming                         | There is no prescribed documentation                                                      |                                      |
 
 
-## Appendix 7
+## Appendix 5
 
 Projects problem statement
 
@@ -210,7 +203,7 @@ The system should handle usage either at home or on the allotment, on phone (iOS
 In the new system it must be possible to automate the creation of a Growing Timeline line, or Calendar, with a list of ToDo’s, whether it is sowing, watering, harvesting etc. The system will allow growers to check the todo’s off the timeline, and filter the timeline by month, or view the whole year at once.
 
 
-## Appendix 8 
+## Appendix 6 
 
 Existing Vegetable Growing applications
 
@@ -225,13 +218,24 @@ Existing Vegetable Growing applications
 | Charles Dowding Wall Calendar          | Website | A paid for calendar of planting and harvesting times                                                                               |                                                                                                                                                                       |
 | Planter                                | App     | An app where you can build a plot with vegetable locations                                                                         | Add plant to plot. Design plot. View calendar and Growing guides                                                                                                      |
 
-## Appendix 9
+## Appendix 7
 React Native vs Cordova
 
-## Appendix 10
+Comparing front-end Frameworks
+However, React Native was later chosen for front-end development, for reasons explained in Appendix 7.
+
+|     | React Native                                                                         | Vue Cordova                                                                                                                                                           |
+|-----|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Pro | Dynamic loading. Easy development with simulation. Widely supported. Lots of plugins | I know Vue. Good Cordova plug ins                                                                                                                                                |
+| Con | I don't know React                                                                   | doesnt have dynamic loadingless plug insslow to update after code changescordova feels a bit old school to use, not great documentationif using Ionic, would need to learn Ionic |
+
+
+## Appendix 8
  differences between the Functional and class components are summarised in Appendix 10
  
-## Appendix 11
+  [@akshat_react_2019] 
+ 
+## Appendix 9
   
  **LESPI**
 
@@ -250,7 +254,7 @@ right to erasure [@ico_right_2021]
 W3C standards
 personal data [@ico_what_2021] 
 
-## Appendix 12
+## Appendix 10
 
  How the questionnaire was designed
 
@@ -267,7 +271,7 @@ personal data [@ico_what_2021]
 * Social: questions about the use of social media to share vegetable growing experiences. asking what responders do with left over seeds/ vegetables
 * Finally: in what location would it be used, a website or app preferred, any other recommended features, and favourite feature discussed above
 
-## Appendix 13
+## Appendix 11
 Summary of headings in the Requirement Gathering Questionnaire
 
 * General: two high level questions asking what does the grower use currently to managed, notes or other apps
@@ -278,36 +282,40 @@ Summary of headings in the Requirement Gathering Questionnaire
 * Social: questions about the use of social media to share vegetable growing experiences. asking what grower do with left over seeds/ vegetables
 * Finally: in what location would it be used, a website or app preferred, any other recommended features, and favourite feature discussed above
 
-## Appendix 14
-Responses from the Requirement Gathering Questionnaire
+## Appendix 12
 
-![questionnaire1.png](../../Zettlr_Images/questionnaire1.png)
+further learning
 
-![questionnaire2.png](../../Zettlr_Images/questionnaire2.png)
+For the initial questionnaire, I hadn’t considered how I would analyse the results or the number of responses I would recieve. Although the 42 responses came steadily, fewer questions would have sufficed. I took this learning into the second “Timeline vs Task vs Calendar” questionnaire, which instead included one question with three multiple choice answers, which was much easier to process. (Appendix 5) What I have learnt from this is that an important factor in designing questionnaires is to think how the information will be processed.
 
-## Appendix 15
+## Appendix 13
 
 analyse requirements [story](https://github.com/harrietc52/TM470/issues/22)
 
 
 ![analysis of qu.png](../../Zettlr_Images/analysis of qu.png)
 
-## Appendix 16
+
+
+## Appendix 14
 
 Story Card examples
 
+add more
 
 ![unselect veg texual desc.png](../../Zettlr_Images/unselect veg texual desc.png)
 
-## Appendix 17
+## Appendix 15
 
 *** todo update !!!
 
 ![volere1.png](../../Zettlr_Images/volere1.png)
+
 ![volere2.png](../../Zettlr_Images/volere2.png)
 
 
-## Appendix 18 
+
+## Appendix 16 
 - compare Research web vs native vs hybrid [story](https://github.com/harrietc52/TM470/issues/20)
 - 
 Hybrid development seems the most appropriate as there would be a single code base for all platforms, and a variety of languages and frameworks can be used. Hybrid applications also benefit from the device’s sensors, making it a fitting choice for an app which may require location data, camera facilities and notifications. (TM352) However,
@@ -318,9 +326,7 @@ Hybrid development seems the most appropriate as there would be a single code ba
 - get app working locally [story](https://github.com/harrietc52/TM470/issues/6)
 TM352 EMA [here](https://docs.google.com/document/d/1j8xN9oY8ZQNU5VNqXq9aBauBTABlBtGPeZIBR8rpzD4/edit)
 
-
-## Appendix 19
-
+## Appendix 17
 **Potential concepts:**
 
 Tangible objects: Computer system, Allotment, Phone, Plot, Vegetables, Crops, Soil, Notes, Seeds, Patch
@@ -343,8 +349,8 @@ Organisational units: Allotment, Weather Forecaster
 | Patch           | Tangible object | No. Synonym for Plot                                                                                    |
 | Growers         | Roles           | No, duplicate                                                                                           |
 
+## Appendix 18
 
-## Appendix 20
 Option 1: 
 ![qu op1.png](../../Zettlr_Images/qu op1.png)
 
@@ -370,20 +376,39 @@ Feedback from Calendar vs Timeline
 | CC     | X        |          |          | I prefer the style of the third one (with the pictures) but like that the top one has all the different veg in one place                                                                                                                                         |
 | KT     | X        |          |          | Probably the 1st one as it gives a good overview at a glance. But the 2nd one would also be useful for more short term planning, like 'what do I need to do this week'                                                                                           |
 | CS     | X        |          |          | I like the first format for the veg timeline/calendar, as I'm mainly concerned with a broad overview of what I need to do throughout the year. However, I'd prefer for them to be ordered from the time they first need to be seeded rather than alphabetically. |
+
 Final mock uip of Timeline
 
 
-![mockup timeline.png](../../Zettlr_Images/mockup timeline.png)
+![mockup timeline.png](../../Zettlr_Images/mockup timeline.png "mockup timeline.png")
 
-## Appendix 21
 
-evidence of implementation
+## Appendix 19
+Mockup Design Feedback
+
+| Person | Comment                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| KT     | Yeah certainly gives an idea of what it does! Thoughts: 1. What happens when you click on the buttons at the bottom of the page on the 'sign up' page? Maybe doesn't need to be there? 2. When I'm on the page with heading "My Plot Name", how do I know how to add veg? (think this is through the vegetables tab but not clear from the plot page) 3. Just a tiny thing but on the 'My Tasks' wire frame youve got 'this month' highlighted but it's showing both Feb and March 4. Are the boxes with 'x' on the calendar page little pics of the page? Not super clear what they represent |
+| PC     | I think the app looks great. Maybe just a list for the calendar. It seems very simple to use                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| VH     | I like the overall calendar view that you can populate with the veg that you are interested in - if that could then generate a tasks/to do list I think that would be great. So essentially all starts with a list of what you want to grow - that shows up on a calendar view, auto generates a tasks list and allows you to plot the produce into your plot.                                                                                                                                                                                                                                 |
+| EN     | It looks cool! I like the companion planting and good/bad neighbours                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Chris  | I like the first format for the veg timeline/calendar, as I'm mainly concerned with a broad overview of what I need to do throughout the year. However, I'd prefer for them to be ordered from the time they first need to be seeded rather than alphabetically. I think the mockups give a clear view of what the app will do: add a plot, add veggies to that plot, add notes about the veggies you've added, and the app will give you info about those veggies and a handy calendar view about what tasks you need to do when.                                                             |
+
+## Appendix 20
+
+git commits
+
 
 ![rails git commit.png](../../Zettlr_Images/rails git commit.png)
 Figure: rails commit messages
 
 ![expo git commit.png](../../Zettlr_Images/expo git commit.png)
 Figure: react native /expo  commit messages
+
+## Appendix 21
+
+
+
 ![rails project structure.png](../../Zettlr_Images/rails project structure.png)
 Figure: rails project structure
 ![expo project structure.png](../../Zettlr_Images/expo project structure.png)
@@ -398,35 +423,84 @@ REDUX
 ![code redux veg action.png](../../Zettlr_Images/code redux veg action.png)
 
 
-## Appendix 23
-
-Feedback from MVP
-
-## Appendix 24
-Lifecycle choices from TMA01 and WaterScrumFall
-ScrumFall [@rahim_scrumfall_2018], 
- 
-| Feature       | Scrum                                                                                                                        | Waterfall                                                                                                     | Kanban                                                                                    | Water-Scrum-Fall                     |
-|---------------|------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|--------------------------------------|
-| Delivery      | Partial working system over a fixed period of time. Releases are made before sprint review                                   | One big deliverable at the end of the life cycle.                                                             | Continuous flow of delivery. Releases are made when ready                                 | incremental development phrases      |
-| Activities    | Activities get revisited, issues can be tackled more frequently                                                              | Activities don’t overlap, and once finished, activities cannot be re-entered.                                 | Kanban has a flexible process. There can be a few activities in progress at any one time. | small tasks                          |
-| Requirements  | Accept requirements, and deliver within a couple of weeks. Requirements discovered later in the lifecycle can be incorporate | Requirements gathered upfront, requirements are unlikely to change. Late requirements cannot be accommodated. | Good for requirements of different priority and size                                      | structured planning phrase           |
-| Testing       | Each deliverable tested after the cycle. Any issues can be revisited the next cycle                                          | Testing happens at the end resulting in late discovery of errors                                              | Feedback loops are incorportated                                                          | feedback required after every "Fall" |
-| Documentation | Agile documents via story cards, code, code comments                                                                         | Requirement are captured in formal, comprehensive documents, which are time consuming                         | There is no prescribed documentation                                                      |                                      |
-## Appendix 25
-
-version 1 gantt chart
-
-![gantt full.png](../../Zettlr_Images/gantt full.png)
-
-
-## Appendix 26
 
 Config screenshot of db Seed code
 
+## Appendix 23
+analysis tools used in project
+
+I am using Zotero as a reference manager and I have got better at saving the a reference to Zotero straight away from the browser plug in, and then writing up in the journal my days learning. However, I would have benefitted from adding reference specific notes at the time of saving, becuase I has been hard to remember exactly what conent was used in a reference for a particular task when it has come to writing up TMAs. Learning the PROMPT (ref) method has helped me to criticially evaluate references, something that I need to continue to work on before the EMA. Along side papers and official documentation, the project has extremely benefited from Stack Overflow posts. When I have been stuck on a particular problem, the majority of time Stack Overflow has a post discussing something similar. (Appendix xx)
+
+Postman was a tool which also helped during development of the Rails API. (ref) It allowed me to test the API before any front-end implementation, easily adapting parameters, URLs, and checking what response and status are returned for different methods. As the Rail API was implementing a JSON API ([ref](https://jsonapi.org/format/)) the body and responses were relatively straight forward. Postman also provides automatic documentation of the requests, and therefore API, which will be used an a way of evidencing work done. The API is also a successful interface, and I like how the front-end and back-end are completely seperated. This gives me more piece of mind when I am working on a piece of code, that changes are in isolation. Additioanlly, becuase I have experience in Rails, I found it quite quick and straight forward to get the API up and working. Allowing me to focus more time on the front-end.
+
+As for project management, I have learnt how to use Gantt charts and appreciate the value of them as I have referred back to and updated mine lots throughout the project. It was particularly useful when estimating how much development work could be completed when decidign scope. Although I have used my Project Journal increasingly more, stating what I have done each session, I have been using GitHub story cards more.
+
+GitHub has been an invalueable tool for this project. Each sub-task has a individual card, where I have been able to add notes, images, tables etc, all in markdown so they can be copy and pasted directly into my word processor, Zettlr. This has and pulling in information for the TMAs more straight forward. The project board with column: Todo, doing and done makes it easy to see the current and upcoming state of work. Card can be moved, and therefore priotisied easily, as well as grouped into "Milestones". In my WaterScrumFall process, these have acted like stages. (appendix 30) Finally, cards can have labels, which has been useful when assigning sizes to cards, as these can be filtered easily. However, the card almost make it too easy, and it can get a little unorganised. For the final few months, I will try an maintain the journal better and organise the information I add to cards better.
+
+## Appendix 24
+Project journal
+
+## Appendix 25
+* _LO5_ critical review tackle project:  _(Appendix)_
+    * critically review how you have tackled the project 
+        * EMA only, but start thinking about it after TMA03
+    * observation so far
+        * good start with a the idea, some research, questionaire, requirements
+        * got lots of requirements as inspired from everyone saying this would be so great and useful
+        * also hoped to base equally off tm352 and tm354, with containerisation and cloud deployment
+        * jumped in building too quickly in a agile way
+        * tma01 came around very quick and I started to panic as I didnt have much structure, and felt out of control
+        * almost started again after tma01, following TM354 very strickly, and dropped tm352 apart from the odd ref
+        * also changed to waterfall
+        * since that, been much better at planning, workload, knowing whats coming up, what i need to work on next
+        * gantt chart also good for an overview
+        * with critical start dates guesing how long each feature would take
+        * reduced scope meant i could imagine the finished probject which helped
+        * git hub story board/ project/ milestones/cards been savour
+        * impleemntation went well afetr all the planning
+        * glad to have got basic html working, before adding ux
+        * tried adding manually css, but quickly realised that would be too much work
+        * more reflection after each story, not just in journal but in github card
 
 
+## Appendix 26
+MVP feedback
+
+| Person | Feedback |
+| --- | --- |
+| SC  | I didn’t think the “Welcome” Page had enough on it - wasn’t that “welcoming” if you know what I mean - a few more veggie graphics & perhaps some encouraging words for those just starting out on allotment ownership… ?!? I also thought the vegetable graphics all looked the same too & would be good if they were veggie specific - possibility of any extra ?! “Top Tips” for creating excellent compost area … how to build your own shed …. Maybe links to other useful sites - eg RHS …. |
+| HC  | the functionality looks like it's already really good! I feel like it is mainly visual stuff that I would edit, so as you said maybe make it less white and more green and add a few more pictures/graphics. And then the only other thing I noticed was the timetable grid is a little off, I'm not sure if it can be better aligned to have the icons directly under months? And yes the remove vegetable function I would say seems important |
+| PM  | Think it's looking brilliant. Really like the timetable at the end. - Is there any way of removing/deleting a plot or veg once added? - Will there be any sort of tooltips or guidance for those that are less digitally literate? - Is there a search functionality if someone has e.g. multiple plots or multiple veg added to find which veg is in which plot etc. - Calendar function to 'look ahead' and see what's coming up in terms of planting or harvestin - Can you view vegetables before adding them to the plot? Maybe recommendations on what to plant? - Pictures of the different veg for those of us who have no idea what Swiss chard looks like - Ability to upload photos of each planted veg maybe?! |
+| FC  | It's amazing, well done. Couple of notes: - Do you need a 'Sign in' button as well as a 'Sign up' button after an account has been made or are you assuming you always remain signed in? If not you could make the Welcome page more personal? So it says 'Welcome Harriet' if they add their first name. - Need a plus sign to show where you can add vegetables to the plot page. - Need a plus sign on timetable or do you click on 'seed' to add a date? - Where will the 'frost dates' appear? Will it be on the timeline- can you use a frost icon for this? |
+| JO  | \- national trust green would be better than purple - I missed the location checkbox, make it bigger/ better description. - I wasn't sure how to add a vegetable to the plot, can a add button be on the plot screen. - There was no feedback when adding a veg to the plot. - Add image of veg in timeline or three letters. - When clicking on the nav bar, I expected to be taken back to respective home pages, not the screen where I had last visited (eg veg description) |
 ## Appendix 27
+
+original gantt chart
+
+
+
+
+
+## Appendix 28
+old resources
+
+|     |     |     |
+| --- | --- | --- |
+| Resource | Why needed | How to obtain |
+| Stakeholders | Gathering requirements, provide feedback and testing final product | I am in frequent communication with 13 stakeholders. |
+| Vegetable Data | Populate vegetable information in tables | I was unable to find sufficient vegetable data. I have manually added vegetable information from my book. This is stored as a Rails seed, which is a configuration file which can be ran on database set up. Automatincally inserting each row in the relevant databases. Appendix shows screenshot of seed code. |
+| XCode | Emulator the hybrid application locally | Installed. Working well |
+| Expo | Easy testing of app by scanning a QR code | Downloaded the software and installed the iOS app. Working well |
+| Ruby on Rails | To build the back-end service | Installed |
+| React Native | To build the front-end UI | Installed |
+| Weather API | To retrieve frost dates for a users location | I was unable to find a frost date api based of location. I found one for america, but not UK. Going to stub out this data and assume usage is only in UK. Based on Cambridge. Frist: 11th Dec. Last 20th April, (ref plantmaps) |
+| GitHub | Version control code and Project Board | I have created a project and a repository. |
+| LucidChart | Build Mock ups, ERD, activity diagrams etc | I have an account through work |
+| Zettlr | To write assignments in markdown format | Downloaded. Creation of tables is temperamental. I am creating tables on Google docs and adding them in later. <br><br>I have better used my reference manager, Zotero, adding notes and populating missed data, and my writing tool, Zettlr, is now linked to Zotero, which automatically imports citations. In general, this is much more efficient and effective.. |
+| Zotero | To store and manage references | Downloaded |
+
+
+## Appendix 29
 list of skills i have stated needed development, and how they have been developeed. any needed 
 
 | **Skill **          | How I have developed the skill since TMA01                                                                   |
@@ -443,7 +517,9 @@ list of skills i have stated needed development, and how they have been develope
 | EDI and Accessible design   | To abide with Law and ensure the applications accessibility | Continue reading free eBook called "UX Design for Mobile".  |
 | Stakeholder communication   | Be efficient and effective in my requests to Stakeholders   | Reread TM354 Unit 9 on Stakeholder involvement              |
 
-## Appendix 28
+
+
+## Appendix 30
 
 details of learning from individual stories
 
@@ -530,7 +606,7 @@ It wasn't clear how best store the sow, plant and harvest dates
 - but lists are hard to store in db
 - use index as months, with strings [0,1,1,2,2,...]
     - where 0 is nothng, 1 is sow
-- store as string
+- store as stringvole
     - '0,0,1,1,1,2,2,2,3,3,0,0'
     - parse to list
     - and assign number to task
@@ -542,56 +618,26 @@ It wasn't clear how best store the sow, plant and harvest dates
 eslint-plugin
 
 
-## Appendix 29
 
-reflection on LO10, LO11 and LO5
-* 
-* _LO10_ LSEPI EDI:
-    * LSEPIs
-        * identiified and addressed?
-        * learnt alot from this activity
-    * EDI
-        * identiified and addressed?
-    * INCLUDE
-        * A proper consideration of professional issues  (see BCS Code of Conduct)
+## Appendix 31
+database versions
 
-* _LO11_ solution output: _(Appendix)_
-    * analyse pratical problem
-    * device solution
-    * implement solution
-    * building on skills from ou and other
-        * yes, tm354 case studys, new language, 
+## Appendix 32
 
-* _LO5_ critical review tackle project:  _(Appendix)_
-    * critically review how you have tackled the project 
-        * EMA only, but start thinking about it after TMA03
-    * observation so far
-        * good start with a the idea, some research, questionaire, requirements
-        * got lots of requirements as inspired from everyone saying this would be so great and useful
-        * also hoped to base equally off tm352 and tm354, with containerisation and cloud deployment
-        * jumped in building too quickly in a agile way
-        * tma01 came around very quick and I started to panic as I didnt have much structure, and felt out of control
-        * almost started again after tma01, following TM354 very strickly, and dropped tm352 apart from the odd ref
-        * also changed to waterfall
-        * since that, been much better at planning, workload, knowing whats coming up, what i need to work on next
-        * gantt chart also good for an overview
-        * with critical start dates guesing how long each feature would take
-        * reduced scope meant i could imagine the finished probject which helped
-        * git hub story board/ project/ milestones/cards been savour
-        * impleemntation went well afetr all the planning
-        * glad to have got basic html working, before adding ux
-        * tried adding manually css, but quickly realised that would be too much work
-        * more reflection after each story, not just in journal but in github card
+Setting up Cordova proved complex. Cordova requires XCode to run the iOS simulator. I am developing on my work laptop so didn’t have the correct permissions to install XCode. It also required a lot of memory. Firstly, I installed a too recent version of XCode for my operating system. Then, the XCode command line was not picking up the “PATH” of the more recent version.
 
+Cordova in the browser was successfully retrieving the MySQL data. However, the iOS simulation wasn’t. After researching, this was because the simulation had a different origin to my laptop. I had to install a transport security plugin (“Cordova-Plugin-Transport-Security” n.d.) and add a HTTP Content-Security-Policy meta tag in the Vue HTML. (Code fix is shown in the background of Figure 14) (“Allow List Guide - Apache Cordova” n.d.)  this sort of thing can be a nightmare!
 
+This solution took a while because it is impossible to debug the iOS simulator. A post in Stack Overflow suggested developer tools in Safari. Once I found the error in the Safari console, debugging was much quicker.
 
-
-## Appendix 2
-
-Learning from making the prototype
 
 When developing the React prototype, similar security issues to the Vue prototype resurfaced. I relaxed the CORS constraints in the back-end and added headers to requests, resulting in a different Network error: iOS does not allow HTTP requests. I then served Rails on HTTPS using a Self Signed Certificate. This worked on my laptops emulator but not my phone because the request to "localhost" from my phone, was understandably, not reaching my laptop. 
 
 I updated the request to point to the laptops IP address. The request was now timing out which was progress. A Stack Overflow answer [@rice_answer_2019] solved this exact problem, suggesting binding the Rails server to 0.0.0.0, which was successful as my phone accessed bank-end data over the internet. This internet dependency was confirmed when developing the application in the car. I hotspotted which changed my laptops IP address because of the different network. Updating the front-end request to use the new IP successfully served the back-end data again. 
 
 The development of working prototypes for both Vue Cordova and React Native was a big learning curve. Carrying my learning experiences from one prototype to another was rewarding. I then felt in a strong position to choose between the two, knowing they both fundamentally work.
+
+
+##  Appendix 33
+
+ux with own styling

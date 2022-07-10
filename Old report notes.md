@@ -1,4 +1,41 @@
 # Section 1
+LO7: All aspects of section 1 should **not** be written in first person; do **not** tell a story; do **not** include masses of theory; do **not** concatenate words 
+
+Each TMA will build on the previous TMA; please include material from TMA02 with a clear indication of what is additional material or what you may have added/changed in the meantime (taking into account feedback received or further work undertaken).
+
+TMA 03 Google doc [here](https://docs.google.com/document/d/1FRhyFJ68vzqCTjrjw2GzF3NQp2sAX56PnLrAv1ZJnqU/edit?usp=sharing)
+
+## problem description
+**1000 words**
+Aim: Refining the goals and content of your project in the light of progress.
+
+READ TMA03 
+
+LO2. Identify and refine the goals and content of your project which should be within the area of your chosen specialist route, if applicable
+
+LO2 description: Based on progress to date has a realistic assessment of what can be achieved in the next phase and has a clear and plausible schedule to achieve it.
+
+- Overview of the problem being addressed; give enough info of the location if there is one; discuss any initial research or investigation which prompted the project
+
+For example, for the outcome ‘identify and refine the goals and content of your project’ you will start achieving this by identifying the goals and content of your project in the first assessment. You will improve and refine these throughout the whole project until you satisfy the outcome by handing in your final project report – the EMA.
+
+**Checklist**
+- made realistic assessment of progress to date
+- made appropriate refinements to the project specification
+- based on assessment, plan and schedule are achievable, not ambitious and has credibility
+- work proposed for the next phase is achievable and substantial
+- next phase and has a clear and plausible schedule to achieve it
+
+1.  Refining the goals and content of your project in the light of progress. Assess the risks to the availability of resources you need to complete your project. Plan the final phase of the project.
+
+One useful suggestion is to give short, one- or two-sentence answers to each of the following questions:
+
+### what is the problem
+_…that needs to be solved or understood? _ 
+Overview of the problem being addressed; give enough info of the location if there is one
+
+
+
 ## Scope
 LSE&P research raised concerns regarding local Food Banks and privacy complexities for push notifications resulted in deprioritisation. To abide with GDPR laws, the ability to remove a plots location was added, and Allotment association has been remove, to support the notion that anybody can grow vegetables, anywhere. As a consequence, the "Allotment Tips" feature was also removed. Additioanlly, the front-end skills and data manipulation required to create a plots layout, made it too complex. A freely available API to retrieve frost dates based on location was not found, an acknowledged risk, where the mitigation was to stub out the frost dates will be implemented. Another stated risk surfaced, in that vegetable data has not been easily accessible, and therefore vegetable data will be manually entered into the database via configuration. After much debate, the results of the second questionnaire prioritised a Timeline, over Task List or Calender view. (Appendix xx). 
 
@@ -34,6 +71,37 @@ React Native is the user interface, which uses Redux as centralised storage in t
 
 
 React Native used Redux as a "single source of truth" state storage, as data, such as `plotId` needs to be persisted through out the application. 
+
+
+## Legal, Social, Ethical & **Professional** issues  
+
+EDI concerns [story](https://github.com/harrietc52/TM470/issues/81)
+INCLUDE MORE PROFESSIONAL ISSUES read [here](https://learn2.open.ac.uk/mod/oucontent/view.php?id=1859818)
+
+
+
+If the system was used outside of the UK, alternative data protection laws would need to be considered. Directive 95/46/EC [@eur-lex_directive_1995] ensures collected data can be processed internally between EU states [@open_university_trans-border_nodate] and since leaving the EU, the UK lost this flexibility. Additional safeguards may therefore be required. Furthermore, if hosted on the Cloud, the role of data controllers and data processors should be especially considered. [@noauthor_controllers_2021] To allow client to server communication, the servers current 0.0.0.0 binding allows all ingress traffic which is a huge security hole. If developed to scale, firewalls, ACLs and ports would need to be configured [@open_university_block_nodate-2] and Cross Origin Requests (CORS) restricted. An API key between the server and client could also be recommended so the server can authenticate incoming requests. 
+
+Regarding social impact, the system will positively contribute to sustainability by preventing waste and unnecessary transportation. Research also shows the mental benefits of growing vegetables [@jones_why_2021], especially during Covid-19, where home growers had higher well-being and lower levels of food insecurity [@mead_growing_2021]. Affected people may involve Stakeholders and the growers to answered the initial questionnaire. The Google From, which handled user authentication, explained no PII such as emails are stored (Appendix 10) but I should have stated when the information would be destroyed. All other communication with the Stakeholders has been via WhatsApp, an encrypted messaging application, and I have been clear that there is no rush or commitment to reply. This project does not directly involve children in anyway as the target market, and therefore Stakeholders, are adults.
+
+If the system became extremely successful, the code could be Open Sourced, allowing developers to contribute, sharing knowledge and skills. An increase in home growing could change growers buying patterns, leading to challenges for small local businesses that grow and sell vegetables. They may need to increase prices which negatively impact people who don't grow vegetables. To avoid this, schemes to support and promote these local business could be considered. 
+
+A deprioritised feature, where left over harvest could be donated to local food banks, could be misused if implemented without careful consideration. Unscrupulous growers could offer damaged vegetables and food quality standards could not be met. Another non-MVP feature of sending push notifications could become irritable to users, if not managed properly. Users would need to be able to able to toggle these notifications on and off.   
+
+Many allotments have an Equality and diversity policy, often based off the Equality Act 2010 [@equality_and_human_rights_commission_equality_nodate]. A few local polices [@allotments_equality_nodate] and [@noauthor_model_2014] aim to provide supportive and equitable environments for all growers. As this system is not constrained to allotments there isn't a specific policy to follow. 
+
+The BSC Code of Conduct [@bcs_bcs_nodate] will guide my work in developing an ethical IT system. ...… the way i will work in a professional manner …  
+
+
+## EDI concerns
+
+HCI 
+
+To reflect the increasingly diverse growers, images will be used throughout to make descriptions more creation and images of "odd" shaped vegetables will replace "normal" vegetables. The colour pallet will reflect colour blind usability requirements and gender neutral language will be used [@european_institute_for_gender_equality_gender-sensitive_nodate]. Following [@shneiderman_eight_2016]'s eught Golden Rules, the interface is simple, alerts will be used to prevent errors and the navigation bar provides consistency throughout.
+
+[@w3c_standards_nodate] describes how HTML attributes should have alternative text throughout and provides accessibility evaluation tools. [@reactnative_accessibility_nodate]'s Accessibility Guide describes properties to accommodate all users and the [@npm_react-native-check-accessibility_nodate] plugin can be ran on code to check accessibility compliance.
+
+
 
 
 ## Lit review
@@ -262,6 +330,9 @@ _(On initialisation, the Fabulous app had a nice way to start. Input data then -
 # Section 2
 
 ## Lifecycle
+
+Initially, I started the project following a KanBan approach (ref). However, the process felt to big for complex for a person project with too many moving parts, as there could be multiple tasks at play at any one time, left me feeling overwhelmed. After some research. I found WaterScrumFall, a hybrid Agile method which combines Waterfall and Scrum, where Scrum is inserted into the middle of the Watefall cycle. Appendix 24 provides a comparison table of the other lifecycle approaches which were considered and tested. 
+
 * Reflection of lifecycle choice
     * comparison table
     * waterScrumFall cycle going well

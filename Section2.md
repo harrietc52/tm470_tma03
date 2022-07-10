@@ -1,115 +1,43 @@
-# Section 2: Review  (2000 words)
+# Section 2: Review  (3885/2000 words)
 
 ## Review of current stage of project work
-200 words
 
-_Begin the account of how you feel the project is going. This is not an analysis and evaluation of the work that you have already reported in the earlier sections: this is your reflection on the process you have been going through and what you have achieved. It should include your thoughts on what went well/badly, and you how you would do things differently another time. : as an understanding of the process can be just as important to your personal development as it is to future projects you are involved with._
+As a whole, I think the project is progressing quite well and I feel in a good position with a few months left. I am proud of creating a working application in React Native, having no prior experience in this framework. The majority of stories from the initial scope have been completed, apart from two, and when interacting with the system, it appears to work smoothly with minimal bugs. 
 
-_Critically review how you have tackled the project.
-Has clearly identified examples of effective work and factors that frustrate effective work and considered how they have been managed._
+good: 
+Reflection on the use of tools that are helping the projects effectiveness, such as Zotero, Postman, GitHub and Gantt Chart are considered in Appendix 23; this also includes reflection on my Project Journal keeping (Appendix 24). 
 
-_**Be critical**_
+I spent alot of time creating and assessing user stories, adding mock ups, testing criterial, acceptance criteria, texual description etc. This meant when it did come to executing a story, I had a clear idea of what needed to be done, which definitely influenced rate of development; 10 stories in around a month.
+ 
+I appreciated having friends and family who I could send the questionnaires, mock-ups and MVP too and get quick feedback. I enjoyed that I wasn't required to prioritise stories, as I feel like I would prioritised different features to them, making the application less useful. For example, the UX improvements are not something I usually am concern about improvement, however they are the majority of the users feedback which means I have learn't more about UX that I expected when starting the project.
+ 
 
-As a whole, I think the project is progressing quite well and I feel in a good position with a few months left. I am mostly proud of creating a working application in React Native, having no prior experience in this framework. The majority of stories from the initial scope have been completed, apart from two, and when interacting with the system, it appears to work with few bugs. 
+bad:
+If I were to do the project again, I would first schedule time upfront to learn more about the chosen language. I would also create a story for each of the research tasks, such as those resources identified as high risk. I left researching tools, or APIs, such as the weather API or gathering vegetable data until starting the story, at which point it was almost too when, as my schedule has only considered implementation timings. I should have spend more time mitigating the risks of not finding certial resources before development work started. 
 
+I would make stories for UX, if I had known what an important aspect this would be. For example, I hadn't a story about creating the navigation bar at the bottom of the screen, becuase I hadn't given it much thought. Although it appeared in the mock-ups, my stories were created from user requirements, where they understandly, assume there is some sort of navigation, and therefore don't state it. It also took a few hours work to test a few different navigation bar component libraries before choosing one and a story could have tracked this work more transparently.  
 
-* how much effort you made*
+Throughout, I would have liked to do more testing. When estimating story times and my project schedule, I should have factored in an extra hour for each story to implement tests. I did some basic test-driven development when I was struggling on something particular, however I will now go back and add some more.
 
-* What went well? What can I learn from that for the rest of my work on this module?
-* What didn’t go so well? How did I recover from my problems? What can I learn from that for the rest of my work on this module?
+Although an app was prefereable from initial requirements, I could have spent more time looking into other options, For example, web apps are now websites just displayed on decive in a more effective way, which could have worked. However, I wouldn't have got to learn React Native.
 
-
-Another learning has been stakeholder communication. 
-* Reflection on process you have been going through
-    * requirement gathering
-        * learning not to ask so many questions
-    * github
-        * having each sub task in a card which can have unlimited notes/ images/ tabbles/ adding
-        * all in mark down so can copy and paste into assigment
-        * the board which makes it easy to move cards and prioritised them
-        * cards can have labels, added labels for s/m/l
-        * milestones act as the stages
-        * helped making me effective
-        * so useful to look back at, pull in evidence for various tma's
-    * architecture
-        * prototype
-        * class diagram
-            * assocaitions
-    * HCI/ mockups
-        * lucid chart worked well 
-        * could copy paste easily, has lots of components to use
-        * helped view what could be reused
-    * extra step needed to find resources
-        * high risk resources not focusing on
-            * What went badly
-            * not having data 
-            * not having found api for frost dates upfront
-    * implementation
-        * longer to learn vue than expected
-            * What went badly
-            * a lot of research dduring the implementation of astory as language was unknown
-            * slowing down development
-            * could have had dedicated two weeks to learning react
-            * was learning on the go
-        * story planning
-            * meant stories were ready to go
-            * technically a agile step to get stories "ready"
-            * in analysis requirements meant each story was clear when it came to picking it up, with a mock up, test, acceptance criteria, texual description etc
-            * helped influence prgress made
-        * postman
-            * a quick way of testing the api without thining about front end implementation
-            * automatic documentation
-            * a tool used in work to better define interfaces
-            * could play around with params, urls, check what responses are returned
-        * front-end / back-end seperate
-            * with back end stories no worries or concerns as confident in rails development
-    * testing
-        * should have done ,more as went along
-    * feedback
-        * having friends and family to prioritise stories, and provide feedback
-
-* Right at the end of your work on the module another useful question is: What would I do differently if I did the project again?
-
-* How you would do things differently another time
-    * dedicated time to learn vue
-    * dedicated time to find resources
-        * hard when your not 100% what you need though until implementing
-    * think about non-functional requirements more and add stories for them
-        * didnt add story about adding ux thruogh. involved researching and choosing a library, testing etc
-        * could split out research stories about which library to use
-    * although a app was prefered from initial requirements, could have spent more time looking into other options
-        * web app might have been easier but wouldnt have learnt vue
-        * web apps are now websites just displayed on decive in a good way which could have worked  
-    * lifecycles
-        * discussed in section ..
-    * plan before project start date
-        * time between start and tma01, although short, dont feel like i did lots
-        * but i did get a prototoe of the vue or cordova request to rails data which was good to fundamentally see it working
-
-
+Further observations about how I tackled the project are inlcuded in Appendix 25.
 
 ## Project Management
-1530/500 words
 
-Review your project management. Identify those elements of your plan that have not progressed as satisfactorily as you expected and briefly record the reason(s)
-
-**LO9**: Plan and organise your project work appropriately, and keep systematic records of plans, progress and outcomes.
-**Has a clear plan and makes an accurate assessment of progress in relation to the original plan. Understands what has gone well and what has not gone to plan.**
-
+I am finding myself working on smaller fixes, planning or writing up notes, in the morning before work for around 45 minutes. The majority of the codeing work is done most evenings for around two hours. I am also given one study day a week through work, to spend time on module work, which is when I have been doing most of the report writing as I find this easier to do in longer sessions.
 
 ### Lifecycle
 
-Initially, I started the project following a KanBan approach (ref). However, the process felt to big for complex for a person project with too many moving parts, as there could be multiple tasks at play at any one time, left me feeling overwhelmed. After some research. I found WaterScrumFall, a hybrid Agile method which combines Waterfall and Scrum, where Scrum is inserted into the middle of the Watefall cycle. Appendix 24 provides a comparison table of the other lifecycle approaches which were considered and tested. 
-
 As WaterScrumFall has three distinct phrases, the first being "Water", it provided the upfront structure of Waterfall, which I wanted as I was closely folling TM354 Case Study steps which were in a Waterfall approach. I was able to gather and analysis requirements, design the database and HCI designs and complete as much upfront preparation as possible which the project benefitted from. 
 
-The "Scrum" approach to implementation allowed me to develop an MVP, which took four weeks. I was able to have users verfiy the system, provde feedback (as shown in Appendix ...). From this, I generated the "Improvement", or "Version 2" stories. This has been great becuase although I get upfront requirements, users don't know exactly what they would like until they have sometime to test and look at. On think I haven't dont much of is testing, as I have felt the pressure to get a working software, which is something I'm going to work on over the next iteration. I now have a small group of stories which I will discuess in section x, as part of the upcoming plan. 
+The "Scrum" approach to implementation allowed me to develop an MVP, which took four weeks. I was able to have users verfiy the system, proivde feedback from both the mock-ups (Appendix 19) and MVP (Appendix 26). From this, I generated the "Improvement", or "Version 2" stories. This has been great becuase although I get upfront requirements, users don't know exactly what they would like until they have sometime to test and look at. On think I haven't dont much of is testing, as I have felt the pressure to get a working software, which is something I'm going to work on over the next iteration. I now have a small group of stories which I will discuess in section x, as part of the upcoming plan. 
 
 The final "Fall" phrase, will be the "release" the the software. I will again gather feedback from users. As a whole, I think WaterScrumFall has been a well suited and efficent process for this project. More discussion of its effectiveness will be included in the final report. 
 
 ### Plan
 
-From MVP feedback, 15 new stories were created. For each story I gave it a size: Small, Medium or Large, where I would expect small to take less than a day, medium a day, and large over a day. After sizing them up, and putting them in order. To decide on this priority order, I noted how many times a feature was mentioned by users, and then considered the size and value of the stories. With small cost and high value first. I added them to the original Gantt Chart (appendix ..) under TMA02 and before report. However, there was not enough days to complete them all, before starting the critical start date of EMA writing. 
+From MVP feedback, 15 new stories were created. For each story I gave it a size: Small, Medium or Large, where I would expect small to take less than a day, medium a day, and large over a day. After sizing them up, and putting them in order. To decide on this priority order, I noted how many times a feature was mentioned by users, and then considered the size and value of the stories. With small cost and high value first. I added them to the original Gantt Chart (Appendix 27) under TMA02 and before report. However, there was not enough days to complete them all, before starting the critical start date of EMA writing. 
 
 The stories which are high cost in time, low in value have been moved to the back log. (The large tag is still on them, and the order will remain, so if any spare time I can go and pick one up, however this is very unlikely.) This leaves 10 remaining stories: five small, two medium and three large. Six of these stories are relative simple UI changes which will made a big difference to the usability of the application, for little effort, such as adding colour, text description and images. For example, adding a button to add a vegetable from the plot screen should be straight forward as the button will simply re-navigate the user to the Vegetables screen. These are all "Small" apart from "Add vegetable images" is Medium because although it will be straight forward to replace an icon or image for another image, it may require more time sources freely available images. The other Medium story "Stub frost dates", as it involves both the front and back-end applications. However the architecture for this is already in place, as it involves only adding an attribute on a "Plot", so I don't expect it to take long. 
 
@@ -119,69 +47,36 @@ Once I return from holiday, for nine days, there will then be a few tasks in par
 
 I then have a wedding weekend away. I'm hoping this will be a nice rest before the final 40 days that are schedules to complete the EMA report. The final week in August which shows unavaiable, is my sisters wedding. I am on annual leave that week and hope to do a few hours of EMA work each day. However, the two weeks prior to this, I hope to get the majority of the report written. Finally, as I have another wedding the Friday before the EMA deadline, I am hoping to hand in the EMA a few days early. 
 
-The Gantt chart in Figure x shows this updated schedule. 
-
-* what you learnt from comparing what you originally planned to do with what you actually did
-* how you had to replan
-
-_**In reflection you might want to say something about the way you work and when.   e.g short bursts or long sessions.  Night v day, etc.**_
-
 ![gantt chart updated with improv.png](../../Zettlr_Images/gantt chart updated with improv.png)
 
-figure x: 
+figure x: The Gantt chart in Figure x shows this updated schedule. 
 
-screenshot of githubt tasks in order
-
+![mvp todo1.png](../../Zettlr_Images/mvp todo1.png "mvp todo1.png")
+![mvp todo2.png](../../Zettlr_Images/mvp todo2.png)
+figure x:
 
 ### Resources
 
-To complete the above, Figure xxx shows a list of Resources that are already in progress and have been updates, or new ones to complete the final version of the system. 
-
-**Update on google doc [here](https://docs.google.com/document/d/1FRhyFJ68vzqCTjrjw2GzF3NQp2sAX56PnLrAv1ZJnqU/edit#)**
+To complete the above, Figure xxx shows a list of Resources that have been identified since TMA02 required to complete the final version of the system. . Appendix 28 includes previously identified Resources, that are already in progress with updated where required.
 
 
-|                      |                                                                    |                                                                                                                                                                                                                                                                                                                   |
-|----------------------|--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Resource             | Why needed                                                         | How to obtain                                                                                                                                                                                                                                                                                                     |
-| Stakeholders         | Gathering requirements, provide feedback and testing final product | I am in frequent communication with 13 stakeholders.                                                                                                                                                                                                                                                              |
-| Vegetable Data       | Populate vegetable information in tables                           | I was unable to find sufficient vegetable data. I have manually added vegetable information from my book. This is stored as a Rails seed, which is a configuration file which can be ran on database set up. Automatincally inserting each row in the relevant databases. Appendix shows screenshot of seed code. |
-| XCode                | Emulator the hybrid application locally                            | Installed. Working well                                                                                                                                                                                                                                                                                           |
-| Expo                 | Easy testing of app by scanning a QR code                          | Downloaded the software and installed the iOS app. Working well                                                                                                                                                                                                                                                   |
-| Ruby on Rails        | To build the back-end service                                      | Installed                                                                                                                                                                                                                                                                                                         |
-| React Native         | To build the front-end UI                                          | Installed                                                                                                                                                                                                                                                                                                         |
-| Weather API          | To retrieve frost dates for a users location                       | I was unable to find a frost date api based of location. I found one for america, but not UK. Going to stub out this data and assume usage is only in UK. Based on Cambridge. Frist: 11th Dec. Last 20th April, (ref plantmaps)                                                                                   |
-| GitHub               | Version control code and Project Board                             | I have created a project and a repository.                                                                                                                                                                                                                                                                        |
-| LucidChart           | Build Mock ups, ERD, activity diagrams etc                         | I have an account through work                                                                                                                                                                                                                                                                                    |
-| Zettlr               | To write assignments in markdown format                            | Downloaded. Creation of tables is temperamental. I am creating tables on Google docs and adding them in later.                                                                                                                                                                                                    |
-| Zotero               | To store and manage references                                     | Downloaded                                                                                                                                                                                                                                                                                                        |
-| Postman              | Test API and provide documentation                                 | Downloaded and working well                                                                                                                                                                                                                                                                                       |
-| React Native library | For providing “Tips”                                               | ReactNativeMaterial Banner/ Dialog/ dismissable snack bar                                                                                                                                                                                                                                                         |
-| React Native library | Add button to veg                                                  | Floating button [<ins>https://www.react-native-material.com/docs/components/fab</ins>](https://www.react-native-material.com/docs/components/fab)                                                                                                                                                                 |
-| React native         | Location checkbox bigger, switch                                   | [<ins>https://www.react-native-material.com/docs/components/switch</ins>](https://www.react-native-material.com/docs/components/switch)                                                                                                                                                                           |
-| React native library | Welcome text                                                       | Dialog. Aware they get annoying. Will only use once at the start. Work out what to say                                                                                                                                                                                                                            |
-| library              | Remove veg from plot                                               | Also use [<ins>https://www.react-native-material.com/docs/components/fab</ins>](https://www.react-native-material.com/docs/components/fab)                                                                                                                                                                        |
-| images               | For vegetables, preferable odd shaped                              | Fine freely available                                                                                                                                                                                                                                                                                             |
-| RSpec                | For back end testing                                               | Already installed and set up                                                                                                                                                                                                                                                                                      |
-| Jest                 | For front end testing                                              | To install and set up [<ins>https://jestjs.io/</ins>](https://jestjs.io/) ref                                                                                                                                                                                                                                     |
+|     |     |     |
+| --- | --- | --- |
+| Resource | Why needed | How to obtain |
+| Postman | Test API and provide documentation | Downloaded and working well |
+| React Native library | For providing “Tips” | ReactNativeMaterial Banner/ Dialog/ dismissable snack bar |
+| React Native library | Add button to veg | Floating button [<ins>https://www.react-native-material.com/docs/components/fab</ins>](https://www.react-native-material.com/docs/components/fab) |
+| React native | Location checkbox bigger, switch | [<ins>https://www.react-native-material.com/docs/components/switch</ins>](https://www.react-native-material.com/docs/components/switch) |
+| React native library | Welcome text | Dialog. Aware they get annoying. Will only use once at the start. Work out what to say |
+| library | Remove veg from plot | Also use [<ins>https://www.react-native-material.com/docs/components/fab</ins>](https://www.react-native-material.com/docs/components/fab) |
+| images | For vegetables, preferable odd shaped | Fine freely available |
+| RSpec | For back end testing | Already installed and set up |
+| Jest | For front end testing | To install and set up [<ins>https://jestjs.io/</ins>](https://jestjs.io/) ref |
+| OU Library Services | For literature research | Accesible via OU website |
 
 ## Risks
-485/ 500 words
 
-_Assess the risks to project completion (remember that this is not the same as whether you expect to pass or not). Identify any significant risks to project completion and determine how these are going to be managed. Identify those elements of the project that may not be addressed if plans need to change
-
-_**LO3**. Identify, list and justify the resources, skills and activities needed to carry out the project successfully. Identify and address any associated risks
-**Has identified the resources, skills and activities, the timely availability of which is essential. Has judged risks (likelihood and impact) appropriately. High-risk elements have been excluded and other risks are manageable**_
-
-_* Assess the risks to the availability of resources you need to complete your project
-    * Include table with all risks even no longer viable ones (highlight those in pale colour)
-    * Discuss whether right ones chosen at start or some added later or not wanted / why_
-
-
-By this stage you should be able to write about the risks you had initially identified, the strategies you had identified to mitigate them, and possibly about how effective these were. You may also identify any risks that may still occur before completion and how to mitigate them.
-
- I have evaluated the risks of the resources stated in figure .., noting which are no longer at risk. New resources required for the final version of the system have been added. A list of skills associated with the project is provided in Appendix 27. 
-
-**Update on google doc [here](https://docs.google.com/document/d/1FRhyFJ68vzqCTjrjw2GzF3NQp2sAX56PnLrAv1ZJnqU/edit#)**
+Figure x shows an evaluation of risks, associated with both the current of previous resources, stating which are not longer likely to be a risk to the project. with the above resources. A list of skills associated with the project is provided in Appendix 29. 
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -200,172 +95,36 @@ By this stage you should be able to write about the risks you had initially iden
 | Vegetable icons not found | L   | M   | I was hoping to use icon for the timeline. If I cant find any, I can use the images above |
 |     |     |     |     |
 
-## Review your personal development
-1000 words
-**LO8**. Learn independently and reflect on what has been done, with a view to improving skills and knowledge.
-**Makes progress under own supervision, communicating regularly and accurately in respect of progress. Seeks guidance when needed, but offers own ideas when doing so.**
+## Review your personal development (1428/1000)
 
-what have you gained as a person
-* what personal benefits you gained through doing the project.
+Gathering and analysising information for the literature review's is something I have found quite difficult. At the start of the project, I wasn't aware of what a literature review was but attending a Library services tutorial helped understand how to do the pratical side of things. I attended this quite late on, and I would have benefitted from reading the resources and practising earlier. Although I find it challenges, it has probable been a biggest learning and an activity I have started to see the real benefits from. 
 
+Nevertheless, I have started the see the benefit from Literature reviews and performing reseach as a whole. Legal reseach has made me aware of GDPR rules that I wouldn't have previously considerred, such as "Right to Erasure", or the differences between Personal Identifiable data and pseudonymous data, such as usernames, and how this affects the system. I particularly enjoyed learning about the benefits of home growing; environmental, mental and physical and software accessible when researching EDI concerns, and how this has affected UX. For example, it had I've considered things for granted such as a good colour scheme, and simple textual descriptions, and regarding UX, simple navigation and feedback alerts for users. I will definitely be more aware of EDI concerns when builing future software projects with work. 
 
-How is it all going, project wise/ learning objectives
+Mocking up the HCI was also a useful activity. LucidChart (ref) was easy to use, and provided in built mobile components. Drawings could then be replicated and small changes made. They also helped me identify which components could be reused, for example, the Vegetable Details page. As React Native is a component language, the mock-up elements map quite closely to what the code components would be. For example, "screens" are the other most component, with smaller "child" components such as lists, and list elements. After reading a few chapters on "Patterns", again it made me realise design we subconsiously expect, and how much of it is to do with the movement of a thumb. Shared components such as Vegetable Lists or Details were discovered during mocking-up which then influenced the way I coded those components, as I had reuse in mind.
 
-* Have I met the learning outcomes for this piece of work? If not, what am I going to change?
+Learning React Native was also harder that I expect. I have worked using Vue previously, so assumed they were more similar then they are. For each story, specificially earlier stories, alot of time was reading React Native documentation, slowing down development. I should have dedicated a few weeks to focus on learning React Native, instead of learning on the go. Although, I did still enjoy this process and after the initial learning curve, I could start to identify similarities with Vue, which made it easier. The three part tutorial was the turning point for me becuase before this, I was struggling to understand how the various elements of React Native fitted with each other. After starting devevelopment, I quickly realised some kind of state management was needed for the system becuase state that gets created in one screen, such as a plot, is required in another, for example, to create the timeline. Having heard only of Redux before, I jumped straight into implementing Redux. However, I should have researched alternatives as React Native itself now has its own store which could have been an alternative to consider. Nevertheless, Redux works well as a centralised state storage, and once the pattern was set up once, it was easy to repeat for different data. 
 
-* LO2 refine goals: 
-    * feeling more confident at refining the goals as there are less unknownws
-    * sattekholder feedback crucial
-    * benefitted learnt alot from LSEPI and EDI issues
-        * added stories 
-        * wouldnt have considered
-        * now will take with me
-        * UX too
-    * subset of initial stories kept focus
-    * requirement gatehring
-        * For the initial questionnaire, I hadn’t considered how I would analyse the results. Although the 42 responses came steadily, fewer questions would have sufficed. Nevertheless, the responses were still incredibly helpful to the project. The “Timeline vs Task vs Calendar” questionnaire instead included one question with three multiple choice answers, which was much easier to process. (Appendix 5)  An important factor in designing questionnaires is to think how the information will be processed.
-        * A lot more answers than I was expecting. In retrospect, I would have had fewer number of questions as it is a lot of answers to go through
+I did spend time researching the differences, positive and negatives of developing React Native components with either classes or functions. (ref comparision here). Using classes gave a component internal state, which was required for some of the components, however it meant there wasn't access the lifecycle hooks such as `useEffect` (ref). Instead, the systems components, on mount, called the `componentDidMount` asycronous function which allows data to be fetched. This was used to make the application reactive. For example, after adding a vegetable to a plot, when clicking back on the plot tab, the vegetable list was to be automatically updated to include the new vegetable. 
 
+Although I have previous experiece with Rails, I haven't created a Rails service from scratch before or defined an API. For example, I hadn't considered the different ways of implementing a API request, such as this request of getting the selected vegetables for a plot. The request could get all vegetables, filtering by those with the given `plot_id`, or it could get the plot including its vegetables. The reactivity problem above influenced the decision to go for the latter. This is becuase it meant only one request needed to be made on mount, and the component would detect a change of state and rerender the components. If the alternative was used, this call to get all veg, filtered by plot, would have been declared in the veglist child components `mount` function. However, React wouldn't have known to rerender this child component becuase the request to get the plot would have look like nothing was changed. Additionally, this also as to save the number of requests to the server, which isn't a problem for such a small scale system, but is something to consider when developing higher throughput applications. Appendix 30 explains futher learning on individual stories.
 
-* LO4: gather information
-    * gather: 
-        * hard to understand what lit review was at the start, first time doing it
-            * resources helped
-            * attended a tutorial helped
-            * bit llate on this front
-            * if i had known, might have gathered more at the start
-        * process half working, zotero plug in in chrome means i save everything i look at
-            * then cross ref from journal notes
-            * try to add note directly into zotero at the time, will save time later
-            * lit review
-                * My biggest improvement has been my understanding and appreciation of literature sources. I learnt how to use the OU Library by watching the practical tutorials and as a result, I believe I have found better sources. I particularly enjoyed learning about the benefits of home growing and software accessible. 
+Designing the database was also interesting, becuase although I have maintained and developed databases, they have never been from scratch. There was a few iterations of the database design (Appendix 31) and I found it a good activity to decide which tables certain attribtues should belong to. For example,  frost dates was originall going to be stored on a plot, depending on their location. However, as this is now a stubbed value, it might not need to be in a database at all, becuase it is unlikely to change. Additionally, sow, plant and harvest dates were going to be dependent on this frost date, which could have been different for each plot location. This meant that the dates could be stored on the PlotVegetable entity. However, since the decision to stub frost dates, this is no longer the case, and specific dates can be stored against the vegetable. This lead to the problem solving things like how to store these dates, which was required to show in a timeline. This was an interesting problem becuase MySQL database doesn't have a List as a type, so I had to be a bit creative and think of alternatives. 
 
-    * analyse: 
-        * Moscow helps in back of mind
-        * alot are for small bugs which stack overflow solves, and analysis is whether it works or not
-        * not sure whether to include these?
-        * not working in acedemic stuggled to know what was good and bad
-        * alot of paper very complex and long, time consusming to read
-        * UI timeline
-            * How to show timeline/ big learning: timetable. compared many table calendar table timetiable Gantt chart Tables Calendars Timetables Gantt chart/ Data grid/ data table Timetable [story](https://github.com/harrietc52/TM470/issues/9) mockup [story](https://github.com/harrietc52/TM470/issues/62)
+The development of working prototypes for both Vue Cordova and React Native was a big learning curve, as described in Appendix 32, yet carrying my learning experiences from one prototype to another was very rewarding and it put me in a good position to choose between the two, knowing they both fundamentally work. I also learnt about networking and IP addresses becuase of this. As the React Native application was running in a Expo emulator, it wasn't realising that it was running on the same `localhost` as the Rails API. I then updated the request to point to the laptops IP address. The request then timed out, which was progress. A Stack Overflow answer [@rice_answer_2019] solved this exact problem, suggesting binding the Rails server to 0.0.0.0, which was successful as my phone accessed bank-end data over the internet. This internet dependency was confirmed when developing the application in the car. I hotspotted which changed my laptops IP address because of the different network. Updating the front-end request to use the new IP successfully served the back-end data again. 
 
-* LO6 variety of sources: 
-    * use variety of sources, demonstrate awareness of credibiliity
-        * use variety of sources
-            * could do more?
-            * handful of resources in the end that really influenced project
-                * with lots of little supporting ones
-            * doing this quite alot 
-        * demonstrate awareness of credibiliity
-            * not doing alot of this
-            * one for improvement
-            * lit review for tma03 said only moscow as a tool to choose sources, but not write about. but this suggests i should still reference if it is a twice reviewed etc
-            * not sure how best to implement this one
+Another main learning was around UX. After the MVP feedback included lots of UI changes, I started to implement CSS styling improvements manually. As shown in Appendix 33, this wasn't very successful. I researched and implemented a few React Libraries for styling and settled on the simple React Native Material (ref). MUI was the alternative, which looks very professional, but possibly overly complicated for this system. Additionally, it was interesting trying to find libraries to support the Timeline feature. Sysnoymns such as timetable, calendar, data grid, data table, gantt chart all have many results when researching. This process took longer than expected, and I should have considered more time for this research or a seperate story. I ended up implementing this tool for the Timeline ([here](https://callstack.github.io/react-native-paper/data-table.html))
 
-* LO7 communication:
-    * communicate information, ideas, problems and solutions clearly
-        * i think i am meeting this outcome quite well?
-        * learnt how to better use postman and see the benefits of it
-        * enjoying writing up about what i have done, its just timeconsuming, hard to know how much to put in main body or appendix
-    * mockups
-        * appreciate value of hci designs
-        * enjoyed learning how to come up with them
-        * things you expect but never think about why
-        * Creating the below mockups was an invaluable activity. Shared components such as Vegetable Lists or Details were discovered and visualising CRUD actions made me think about data dependencies. For example; When a selected vegetable is removed from a plot, should its associated notes be destroyed to? Appendix 13 contains Stakeholder feedback for the mockups, which was quite positive. 
-
-* LO1: technical aspects 
-    * technical concepts
-        * expo location
-            * expo location access of device, with explict consent [@expo_location_nodate] 
-        * database design 
-            * How to store data, specifically timetable. 
-            * use of config, as rarely going to change. 
-            * and db doesnt like lists
-            * where should this infomation be stored?????
-            * Moved from plot veg, to just veg, and plot veg was needed when the data would be different depending on location
-            * But now not using location / frost dates to influence all the same
-            * So consistent for all veg
-            * So moves class
-            * for now, going to store timeline as comma seporated list in DB column, can the
-            * use split when in the UI to convert to list
-        * installation of expo 
-            * test locally
-        * rails appliaction from scratch
-            * learnt lots
-        * will reflect on jest and rspec later
-        * npm
-            * NPM/yarn install. A `.nvmrc` file containing a node version number was created to automatically use the specified versious. 
-        * UI framework
-            *  https://mui.com/x/react-data-grid/ * (react not react native)
-            * ***https://callstack.github.io/react-native-paper/data-table.html **Using this one
-
-* LO8 independent learning:
-    * learn independently, and reflect on what has been done, with view to improving skills and knowledge
-        * learn independently
-            * made progreess when stuck?
-            * havent needed to ask too many technical questions
-        * reflect on what has been done
-            * could send tutor more updates
-            * keeping in touch with tutor (example in appendix)
-        * prototype
-            * proud when solved problems, like the initial prototyoe security one
-            * When developing the React prototype, similar security issues to the Vue prototype resurfaced. I relaxed the CORS constraints in the back-end and added headers to requests, resulting in a different Network error: iOS does not allow HTTP requests. I then served Rails on HTTPS using a Self-Signed Certificate. This worked on my laptop’s emulator but not my phone because the request to “localhost” from my phone, was understandably, not reaching my laptop.
-            * I updated the request to point to the laptops IP address. The request was now timing out, instead of failing, which was progress. A Stack Overflow answer (Rice 2019) solved this exact problem. Rice suggested binding the Rails server to 0.0.0.0, which was successful as my phone accessed bank-end data over the internet. This internet dependency was confirmed when I continued development in the car. I then hot spotted to access the internet, which changed my laptops IP address because of the different network. Updating the front-end request to use the new IP successfully served the back-end data again.
-            * The development of working prototypes for both Vue Cordova and React Native was a big learning curve, yet carrying my learning experiences from one prototype to another was very rewarding. I then felt in a strong position to choose between the two, knowing they both fundamentally work.
-        * react native
-            * better understand redux
-                * Central state, redux vs useState and useEffect. Have a container for each of the main 3 tabs, which gets initialised with the state and actions it needs. But plot pages needs to aaccess list of vegetables to be able to filter the vegetable list with selected vegetables, so state is shared. thi s culd be improved as mentioned else where, currently getting ids for selected veg from plot api, but could add scope to plot vegetables to filter plot vegetables by plotid. 
-            * react native lifecycle hooks
-                * Navigation.Passing as a prop to chld components and Passing actions as prop. how to Class components vs functions. Using classes as components so useEffect not available. Biggest learning current was Reactivity, and how to use componentMount and unmount and update. for example When adding veg to plot, which clicking on plot page, want to automatically refetch plot. Constraint as fetch for veg list in plot is getting plot?include=plotVegetables, where as is veg list was separate component with own state, rather than central state, could be given a plot id and go get its own veg on render. But as its plot veg, need to re fetch the plot for it to update. Learning got in an infinite look at one point, when fetch was in update function
-
-* LO3 resource, skills, act: 
-    * list resources, skills and activities
-        * activities i am good at
-        * resources and skill could be improved
-        * i could have sorted the resources eg data from the start, until an after thought when starting the story that needed the data
-        * revisit these lists in tma03, ready to next block of work, making sure i have everything upfront
-        * keep working on react native skill. thought it would be more similar to vue
-
-
-* LO9 plan, organisation:
-    * plan and organise project work
-        * one of my better ones, thanks to github
-    * keep systematic records of plans
-        * gantt chart
-            * found so helpful especially when planning how much work can fit in to do scope
-    * keep systematic records of progress
-        * journal - could be better at
-            * Since TMA01, I have used my Project Journal (Appendix 15) much more. Stating what I have done each session and plan to do next, has helped when revisiting project work days later. The GitHub board and cards have been a very effective way of storing associated requirements, diagrams and research. This also made TMA02 easier to compile.
-        * enjoyed log keeping, will try to do this more in professional life
-            * example in appendix
-    * keep systematic records of outcomes
-        * taking screenshots for each feature,
-        * need to add tests after features
-    * tried lots of lifecycles
-        * from implmeenting scrum for a few weeks, waterfall for a 2 months then waterscrumfall for majority, learnt a bit about all of them
-    * project maagement
-        * Continue reading “Projects in Computing and Information Systems. A Student’s Guide”.
-        * take on holiday
-    * work life balance
-        * with 2 months left, still alot of time. gradually feeling myself buring out. espeically at work. need to take time away. 
-        * its a very busy time at the moment and uni is taking every evening and all weekends, making less work life balance
-            * going to work on this for the final few months as I would liek to enjoy last months of uni after 6 years 
-        * after tma02 was other tm358 ema
-            * three full weeks not looking at this project
-            * it was scheduled in the plan, which i am glad
-            * but knackered after that to get back on coding work was hard
-            * should have given myself a few days rest after ema
-
-  
-Learning LO10, LO11 and LO5 (Appendix 29)
+Finally, more than anything, I have learnt to manage my time during this project. Although my work life balance, isn't very balanced at the moment, I feel like I have been as organised as I can be. However, this next few months, I will also schedule in "nights off" and prioritise "down-time" as well, to try enjoy the final few months of my Open Univeristy degree.
 
 ## Tutor
 
-* whether to include smaller stack overflow posts somewhere
-* lo6: develop and demonstrate ability to effective use of sources, and demontrate awareness of credibility. how to do the latter?
-* level of my writing formality ok?
-* who is the intended audience of the report
-* would you like more updates
-* the way the learning objectives have been grouped, is there anything telling about that/ why which lo have been placed together
+A few questions:
+* Should I include another resources table with smaller supplement materials, such as all the stack overflow posts I've used
+* Is the formality level of my writing ok
+* Which brings me on to, who is the intended audience of this report
+* Would you like more updates of my progress
+* Is there anything telling about why which Learning objectives have been placed together, I assume this grouping is to influence the word count?
+* I found it hard to distinguish "review of current stage of project work" and "personal development". 
 
 
