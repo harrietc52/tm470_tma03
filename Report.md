@@ -4,6 +4,9 @@ TM470 TMA03
 12th July
 5000 words
 
+[@postman_tm470_nodate]
+
+
 #  Contents
 Table of Contents
 Table of Appendices
@@ -848,23 +851,28 @@ Futher reflection on learning from individual stories
 (re. Section )
 
 User story: "Create tab navigation"
+
 * React Navigation, also starting to understand. Original wanted no tabs showing when initially creating a user, but time boxed that and now going to check whether a user exists then render a different component, so the navigation is the same throughout
 * Couldnt get navigation to work with plot vegetable component so changed approach to adding include to back end, so on getting a plot it would also get the plots vegetables info, so that can be renders in the plot pag
 
 User story: "Create user"
+
 * Install redux to persist user * do we need a user? 
 * Started Sign up user. Adding scafford for Rails backend and tabs and import basic component in front end
 * Struggling with getting error to be thrown, but still get response. Rails.application.config.action\_dispatch.show\_exceptions = true. Commented out in `rails_api_mysql_project/spec/requests/users_spec.rb` for now
 
 User story: "Create plot"
+
 * pass in a user to plot creation
 * textual description
 * activity diagram
 
 User story: "View plot"
+
 * acceptance criteria
 
 User story: "View vegetables"
+
 * reusable
 * textual description/ acceptance criteria
 * * lists 
@@ -873,6 +881,7 @@ User story: "View vegetables"
 * [story](https://github.com/harrietc52/TM470/issues/7)
 
 User story: "View veg info"
+
 * reuse
 * child component 
 * pass in props
@@ -880,6 +889,7 @@ User story: "View veg info"
 * [story](https://github.com/harrietc52/TM470/issues/71)
 
 User story: "Add veg to plot"
+
 * Textual description [<ins>here</ins>](https://github.com/harrietc52/TM470/issues/70)
 * acceptance cri
 * pre/ post conditions (ref)
@@ -890,6 +900,7 @@ User story: "Add veg to plot"
 * We analysed it using object diagrams to illustrate the state of the system at various points, and developed a design for the interaction involved in this use case, as shown in Figure 3. 
 
 User story: "View plot vegetables"
+
 * different want to do this
 * either scope and include
 * or retun as part of plot info, and dont do extra request
@@ -897,6 +908,7 @@ User story: "View plot vegetables"
 
 
 User story: "Get location"
+
 * [story](https://github.com/harrietc52/TM470/issues/43)
 * looked at a few different packages/ libraries
 * https://reactnative.dev/docs/0.63/geolocation  
@@ -907,6 +919,7 @@ User story: "Get location"
 * Since TMA02, removed the frost locations, as struggled to find an freely available API based with UK data. frost dates * could not find api. Adding Constraint, assuming used in UK based, specificaitlly cambridgeshire, as frost dates and sow/plant/harvest dates set for all vegetbales the same (as planned for in in Risks) going to stub out the data for now, so can still use hybrid device location to get location and send to backend and store. Then will return with stubbed data about frost dates the same for every location. (covered in risks)
 
 User story: "Show timeline"
+
 * story [here](https://github.com/harrietc52/TM470/issues/41)
 * researched plug ins
 * Attributes:
