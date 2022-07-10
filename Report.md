@@ -72,7 +72,7 @@ During back-end development, [@railsguides_getting_nodate] provided a high-level
 
 TM352's Cordova development guide [@apache_cordova_android_nodate] provided pratical tasks to set up a project. However, React Native was later chosen for front-end development, for reasons explained in Appendix 7. Although [@reactnative_learn_nodate] documentation share simple code to illustrate basic React concepts like `state` and `props`, [@expo_create_nodate] documentation guided the initialisation of the final project.  Then, with the aim of creating a clear front-end directory structure, similar to that which the `scaffold` command provides for Rails, [@reactnativeexample_react_2021] outlined a template for a clear and organised project structure which was adhered to.
 
-During implementation, the mose influencial three-part tutorial  [@fullstacklabs_creating_nodate] described how to build a simple app, using Ruby on Rail API and a React Native client, which first set up a Rails API project, then React Native using Redux for state management, and finally connecting the two. Additionally, TM352, specificifcally JSON and REST resources [@open_university_tm352_nodate]  were revisted when developing this client to server communication. Analysis of tutorial's working code on GitHub provided a greater understanding of Redux flow between store, reducers, actions and action type, along with "Getting Started with Redux" documentation [@redux_redux_2021]. The tutorials use of `async/await` was further explained by [@gagliardi_how_2018], specificaly regarding the use of promises in a `componentWillMount` lifecycle hook. 
+During implementation, the mose influencial three-part tutorial  [@fullstacklabs_creating_nodate] described how to build a simple app, using Ruby on Rail API and a React Native client, which first set up a Rails API project, then React Native using Redux for state management, and finally connecting the two. Additionally, TM352, specificifcally JSON and REST resources [@open_university_tm352_nodate]  were revisted when developing this client to server communication. Analysis of tutorial's working code on GitHub provided a greater understanding of Redux flow between store, reducers, actions and action type, along with "Getting Started with Redux" documentation [@redux_redux_2021]. The tutorials use of `async/await` was further explained by [@gagliardi_awaitreact_2018] specificaly regarding the use of promises in a `componentWillMount` lifecycle hook. 
 
 ReactJS documentation explained the difference between creating components as a functions or classes [@react_reactcomponent_nodate] which [@geeksforgeeks_differences_2022] compares; Class Components are stateful and ran as part of the React life cycle, thus supporting methods such as `componentDidMount` making it better suited for this project which renders data on component initialisation. Further differences between the Functional and class components are summarised in Appendix 8. [@akshat_react_2019] support the Redux and Component class approach, as they introduced React Naviation, which advocates a wrapper (`withNavigation`) for existing components. Via this approach, the navigation prop does not need to be passed down through multiple child components. [@reactnavigation_access_nodate] 
 
@@ -104,7 +104,8 @@ Figure 3: A user story example (Appendix 14 includes others)
 
 #### Architecture
 
-Architecturally significant requirements (ASRs) were identified, with four characteristics stated below, including an example requirement that drives the system’s software architecture. [@open_university_architecturally_nodate] 
+Architecturally significant requirements (ASRs) were identified, with four characteristics stated below, including an example requirement that drives the system’s software architecture: [@open_university_architecturally_nodate] 
+
 * _Quality attributes_: Security non-functional requirements stated no personal data will be stored, yet other data will be stored. Thus, a database is required.
 * _Core features_ Core features are described by Chen et al as ‘the problem the software is trying to solve’. For example, the system should allow a user to create, read, update and plots (CRUD). 
 * _Constraints_. From initial requirement gathering, an app to support both iOS and Android platforms was preferable. Having explore different approaches to mobile developent: web, native and hybrid (Appendix 16). This preference of a hybrid, places a ASR constraint, limiting the choice of Frameworks available. 
@@ -129,6 +130,7 @@ Figure 5: Back-end data displayed in React Native component, using Expo's iOS Si
 #### Class Design
 
 Having chosen a technology stack, a class diagram of the software was designed. Firstly, using the above Use Cases, potential "concepts" were identified and analysed, as to whether they justified as classes. (Appendix 17) The final core entities were: User, Plot and Vegetables. Associations required to constrain these classes were then identified:
+
 * User: A user may have only one Plot
 * Plot: A plot must belongs to a User
 * Plot: A plot could have many Vegetables
@@ -266,7 +268,20 @@ Figure 17: GitHub V2 column showing upcoming stories to be implemented
 
 Below shows the Resources identified since TMA02, which are required for project completion. Appendix 28 includes previously identified Resources, which have been updated where where necessary.
 
- 
+
+|     |     |     |
+| --- | --- | --- |
+| Resource | Why needed | How to obtain |
+| Postman | Test API and provide documentation | Downloaded and working well |
+| React Native library | For providing “Tips” | ReactNativeMaterial Banner/ Dialog/ dismissable snack bar |
+| React Native library | Add button to veg | Floating button [<ins>https://www.react-native-material.com/docs/components/fab</ins>](https://www.react-native-material.com/docs/components/fab) |
+| React native | Location checkbox bigger, switch | [<ins>https://www.react-native-material.com/docs/components/switch</ins>](https://www.react-native-material.com/docs/components/switch) |
+| React native library | Welcome text | Dialog. Aware they get annoying. Will only use once at the start. Work out what to say |
+| library | Remove veg from plot | Also use [<ins>https://www.react-native-material.com/docs/components/fab</ins>](https://www.react-native-material.com/docs/components/fab) |
+| images | For vegetables, preferable odd shaped | Fine freely available |
+| RSpec | For back end testing | Already installed and set up |
+| Jest | For front end testing | To install and set up [<ins>https://jestjs.io/</ins>](https://jestjs.io/) ref |
+| OU Library Services | For literature research | Accesible via OU website |
 
 Table 2: List of Resources
 
@@ -322,13 +337,15 @@ Finally, more than anything, I have learnt to manage my time during this project
 ## Tutor
 
 A few observations and things I will fix for the EMA:
-- Some Appendix's were slotted in late, with the suffix `b`
-- Write up Appendix's, as some are in bullet points
-- Add a Glossary 
-- Properly consider professional issues (BCS Code of Conduct)
-- Update the Volere Template
+
+* Some Appendix's were slotted in late, with the suffix `b`
+* Write up Appendix's, as some are in bullet points
+* Add a Glossary 
+* Properly consider professional issues (BCS Code of Conduct)
+* Update the Volere Template
 
 A few questions:
+
 * Please comment on the above, if you think they are all worth doing
 * Should I include another resources table with smaller supplement materials, such as all the stack overflow posts I've used
 * Is the formality level of my writing ok
@@ -369,36 +386,37 @@ Project influences from TM352, TM354 and my place of work
 (re. Section )
 
 TM354:
-- software development - following the course material, specifically case study. as a waterfall approach. becan with domain research, requirments, modelling, design, analysis,  now implementation. database design?
-- design and software implementation project typically focus on a problem which can be solved with a simple software application
-- process and modelling techniques for the design, architecture and testing of software solutions
-- UML techniques
-- waterfall vs Agile development
-- collection of requirements
-- the development of a design with appropriate research
-- the development of a complete or partial software solution or suggestions for implementation
-- evaluation of the design and software if produced (stakeholders)
-- Scope: if problem is large, identify a smaller component which can be solved in isolation, providing significant value
-- Projects will typically build in evaluation of the design, the software product and the method used to build it
-- architectures and design patterns. Make use of the Gang of Four book  (Gamma et al, 1995) and Shaw and Garlan (1996)
-- Evaluating and using testing methods. Evaluate test techniques such as test-driven development for your project: what benefits do they bring?
-- A discussion of quality attributes and trade-offs within the developed system.
-- testing/ tactics
+* software development 
+* following the course material, specifically case study. as a waterfall approach. becan with domain research, requirments, modelling, design, analysis,  now implementation. database design?
+* design and software implementation project typically focus on a problem which can be solved with a simple software application
+* process and modelling techniques for the design, architecture and testing of software solutions
+* UML techniques
+* waterfall vs Agile development
+* collection of requirements
+* the development of a design with appropriate research
+* the development of a complete or partial software solution or suggestions for implementation
+* evaluation of the design and software if produced (stakeholders)
+* Scope: if problem is large, identify a smaller component which can be solved in isolation, providing significant value
+* Projects will typically build in evaluation of the design, the software product and the method used to build it
+* architectures and design patterns. Make use of the Gang of Four book  (Gamma et al, 1995) and Shaw and Garlan (1996)
+* Evaluating and using testing methods. Evaluate test techniques such as test-driven development for your project: what benefits do they bring?
+* A discussion of quality attributes and trade-offs within the developed system.
+* testing/ tactics
 
 TM352:
-- mobile development, 
-- web services and architecture
-- web security issues
-- web application design, accessibility and interaction
-- standards and their role
-- mobile application design and development
-- approaches to mobile application development
+* mobile development, 
+* web services and architecture
+* web security issues
+* web application design, accessibility and interaction
+* standards and their role
+* mobile application design and development
+* approaches to mobile application development
 
 Place of work:
-- multiple projects in Rails with both relational and non-realtional databases. here, used mysql for relational becuasse… this includes rest api in JSON
-- also worked on projects using Vue Javascript front end framework. 
-- this is first project using React Native
-- this is my first project involving mobile development
+* multiple projects in Rails with both relational and non-realtional databases. here, used mysql for relational becuasse… this includes rest api in JSON
+* also worked on projects using Vue Javascript front end framework. 
+* this is first project using React Native
+* this is my first project involving mobile development
 
 ## Appenix 2b
 
@@ -641,9 +659,10 @@ Domain analysis activities
 (re. Section )
 
 Potential concepts:
-Tangible objects: Computer system, Allotment, Phone, Plot, Vegetables, Crops, Soil, Notes, Seeds, Patch
-Roles: Growers
-Organisational units: Allotment, Weather Forecaster
+
+* Tangible objects: Computer system, Allotment, Phone, Plot, Vegetables, Crops, Soil, Notes, Seeds, Patch
+* Roles: Growers
+* Organisational units: Allotment, Weather Forecaster
 
 Analysis of Candidate Classes:
 
@@ -829,85 +848,85 @@ Futher reflection on learning from individual stories
 (re. Section )
 
 User story: "Create tab navigation"
-- React Navigation, also starting to understand. Original wanted no tabs showing when initially creating a user, but time boxed that and now going to check whether a user exists then render a different component, so the navigation is the same throughout
-- Couldnt get navigation to work with plot vegetable component so changed approach to adding include to back end, so on getting a plot it would also get the plots vegetables info, so that can be renders in the plot pag
+* React Navigation, also starting to understand. Original wanted no tabs showing when initially creating a user, but time boxed that and now going to check whether a user exists then render a different component, so the navigation is the same throughout
+* Couldnt get navigation to work with plot vegetable component so changed approach to adding include to back end, so on getting a plot it would also get the plots vegetables info, so that can be renders in the plot pag
 
 User story: "Create user"
-- Install redux to persist user - do we need a user? 
-- Started Sign up user. Adding scafford for Rails backend and tabs and import basic component in front end
-- Struggling with getting error to be thrown, but still get response. Rails.application.config.action\_dispatch.show\_exceptions = true. Commented out in `rails_api_mysql_project/spec/requests/users_spec.rb` for now
+* Install redux to persist user * do we need a user? 
+* Started Sign up user. Adding scafford for Rails backend and tabs and import basic component in front end
+* Struggling with getting error to be thrown, but still get response. Rails.application.config.action\_dispatch.show\_exceptions = true. Commented out in `rails_api_mysql_project/spec/requests/users_spec.rb` for now
 
 User story: "Create plot"
-- pass in a user to plot creation
-- textual description
-- activity diagram
+* pass in a user to plot creation
+* textual description
+* activity diagram
 
 User story: "View plot"
-- acceptance criteria
+* acceptance criteria
 
 User story: "View vegetables"
-- reusable
-- textual description/ acceptance criteria
-- - lists 
-- componentDidMount
-- want to make it reusable, hard to know how yet
-- [story](https://github.com/harrietc52/TM470/issues/7)
+* reusable
+* textual description/ acceptance criteria
+* * lists 
+* componentDidMount
+* want to make it reusable, hard to know how yet
+* [story](https://github.com/harrietc52/TM470/issues/7)
 
 User story: "View veg info"
-- reuse
-- child component 
-- pass in props
-- and update navigation
-- [story](https://github.com/harrietc52/TM470/issues/71)
+* reuse
+* child component 
+* pass in props
+* and update navigation
+* [story](https://github.com/harrietc52/TM470/issues/71)
 
 User story: "Add veg to plot"
-- Textual description [<ins>here</ins>](https://github.com/harrietc52/TM470/issues/70)
-- acceptance cri
-- pre/ post conditions (ref)
-- example test
-- Activity diagram [<ins>here</ins>](https://lucid.app/lucidchart/5fb49364-f050-48de-95fb-1c7f0abe3e86/edit?invitationId=inv_7101815a-8a70-4989-abd3-05e2c8d274ee&page=rMVuOl_Jmzx7#)
-- [story](https://github.com/harrietc52/TM470/issues/70)
-- The one studied in the most detail was Add vegetable to plot. 
-- We analysed it using object diagrams to illustrate the state of the system at various points, and developed a design for the interaction involved in this use case, as shown in Figure 3. 
+* Textual description [<ins>here</ins>](https://github.com/harrietc52/TM470/issues/70)
+* acceptance cri
+* pre/ post conditions (ref)
+* example test
+* Activity diagram [<ins>here</ins>](https://lucid.app/lucidchart/5fb49364-f050-48de-95fb-1c7f0abe3e86/edit?invitationId=inv_7101815a-8a70-4989-abd3-05e2c8d274ee&page=rMVuOl_Jmzx7#)
+* [story](https://github.com/harrietc52/TM470/issues/70)
+* The one studied in the most detail was Add vegetable to plot. 
+* We analysed it using object diagrams to illustrate the state of the system at various points, and developed a design for the interaction involved in this use case, as shown in Figure 3. 
 
 User story: "View plot vegetables"
-- different want to do this
-- either scope and include
-- or retun as part of plot info, and dont do extra request
-- two different activty diagrams
+* different want to do this
+* either scope and include
+* or retun as part of plot info, and dont do extra request
+* two different activty diagrams
 
 
 User story: "Get location"
-- [story](https://github.com/harrietc52/TM470/issues/43)
-- looked at a few different packages/ libraries
-- https://reactnative.dev/docs/0.63/geolocation  
-- https://reactnative.directory/?search=geolocation  
-- https://www.npmjs.com/package/react-native-get-location
-- Location on a Plot was initially a user-defined type. However, after accesing the devices location, it was returned as an object with latitude and longitude, and individual big ints. Therefore a Location class isn't required, as it also do not now contain any behaviour, but instead lat and long attributes added to Plot. 
-- This adds constraint, that plot locations will be assumed to be in south UK, as the frost dates will be hard coded. 
-- Since TMA02, removed the frost locations, as struggled to find an freely available API based with UK data. frost dates - could not find api. Adding Constraint, assuming used in UK based, specificaitlly cambridgeshire, as frost dates and sow/plant/harvest dates set for all vegetbales the same (as planned for in in Risks) going to stub out the data for now, so can still use hybrid device location to get location and send to backend and store. Then will return with stubbed data about frost dates the same for every location. (covered in risks)
+* [story](https://github.com/harrietc52/TM470/issues/43)
+* looked at a few different packages/ libraries
+* https://reactnative.dev/docs/0.63/geolocation  
+* https://reactnative.directory/?search=geolocation  
+* https://www.npmjs.com/package/react-native-get-location
+* Location on a Plot was initially a user-defined type. However, after accesing the devices location, it was returned as an object with latitude and longitude, and individual big ints. Therefore a Location class isn't required, as it also do not now contain any behaviour, but instead lat and long attributes added to Plot. 
+* This adds constraint, that plot locations will be assumed to be in south UK, as the frost dates will be hard coded. 
+* Since TMA02, removed the frost locations, as struggled to find an freely available API based with UK data. frost dates * could not find api. Adding Constraint, assuming used in UK based, specificaitlly cambridgeshire, as frost dates and sow/plant/harvest dates set for all vegetbales the same (as planned for in in Risks) going to stub out the data for now, so can still use hybrid device location to get location and send to backend and store. Then will return with stubbed data about frost dates the same for every location. (covered in risks)
 
 User story: "Show timeline"
-- story [here](https://github.com/harrietc52/TM470/issues/41)
-- researched plug ins
-- Attributes:
-    - Initially it was decided sow, plant and harvest datas would be attributes on a PlotVegtable object. As it was throught these would be depended on the Plots frost dates. However, as frost dates mocked out, these dates are constant for all vegetables. Therefore the attribute can belong to the Vegetable class.
-- Data types:
-    - It wasn't clear how best store the sow, plant and harvest dates
-    - a range of months (jan - march)
-    - or a object {sow: [jan, feb, march]}
-    - or many lists sow: [jan, feb], plant: []
-    - but lists are hard to store in db
-    - use index as months, with strings [0,1,1,2,2,...]
-        - where 0 is nothng, 1 is sow
-    - store as stringvole
-        - '0,0,1,1,1,2,2,2,3,3,0,0'
-        - parse to list
-        - and assign number to task
-    - could develop further with enum
-        - Could improve this to enum though, not int. Where sow = 1, plant 2 etc. if enum would be better 
-        - sowKind = TaskKind.SOW;
-    - could be stored differently as config, and unlikely to change
+* story [here](https://github.com/harrietc52/TM470/issues/41)
+* researched plug ins
+* Attributes:
+    * Initially it was decided sow, plant and harvest datas would be attributes on a PlotVegtable object. As it was throught these would be depended on the Plots frost dates. However, as frost dates mocked out, these dates are constant for all vegetables. Therefore the attribute can belong to the Vegetable class.
+* Data types:
+    * It wasn't clear how best store the sow, plant and harvest dates
+    * a range of months (jan - march)
+    * or a object {sow: [jan, feb, march]}
+    * or many lists sow: [jan, feb], plant: []
+    * but lists are hard to store in db
+    * use index as months, with strings [0,1,1,2,2,...]
+        * where 0 is nothng, 1 is sow
+    * store as stringvole
+        * '0,0,1,1,1,2,2,2,3,3,0,0'
+        * parse to list
+        * and assign number to task
+    * could develop further with enum
+        * Could improve this to enum though, not int. Where sow = 1, plant 2 etc. if enum would be better 
+        * sowKind = TaskKind.SOW;
+    * could be stored differently as config, and unlikely to change
 
 ## Appendix 31
 
