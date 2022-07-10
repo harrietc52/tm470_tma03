@@ -1,27 +1,14 @@
-# Section 2: Review  (3885/2000 words)
+# Section 2: Review
 
 ## Review of current stage of project work
 
-As a whole, I think the project is progressing quite well and I feel in a good position with a few months left. I am proud of creating a working application in React Native, having no prior experience in this framework. The majority of stories from the initial scope have been completed, apart from two, and when interacting with the system, it appears to work smoothly with minimal bugs. 
+I think the project is progressing well and I feel in a relatively good position. The majority of stories from the initial scope have been completed, apart from two, and when interacting with the system, it appears to work smoothly with minimal bugs. 
 
-good: 
-Reflection on the use of tools that are helping the projects effectiveness, such as Zotero, Postman, GitHub and Gantt Chart are considered in Appendix 23; this also includes reflection on my Project Journal keeping (Appendix 24). 
+Reflection on the use of tools that are helping the projects effectiveness, such as Zotero, Postman, GitHub and Gantt Chart are considered in Appendix 23; this also includes reflection on my Project Journal keeping (Appendix 25). Time spent creating user stories, mock ups, testing criterial, texual description etc meant when it came to executing a story, I had a clear idea of what needed to be done, which definitely increased effectiveness. I am also grateful for my stakeholders, who responded quickly to questions and feedback requests. Having the prioritisaiton of stories based on their feedback has been benefitial, as I would have prioritised different features, making the application less useful. 
 
-I spent alot of time creating and assessing user stories, adding mock ups, testing criterial, acceptance criteria, texual description etc. This meant when it did come to executing a story, I had a clear idea of what needed to be done, which definitely influenced rate of development; 10 stories in around a month.
- 
-I appreciated having friends and family who I could send the questionnaires, mock-ups and MVP too and get quick feedback. I enjoyed that I wasn't required to prioritise stories, as I feel like I would prioritised different features to them, making the application less useful. For example, the UX improvements are not something I usually am concern about improvement, however they are the majority of the users feedback which means I have learn't more about UX that I expected when starting the project.
- 
+If I were to do the project again, I would first schedule time upfront to learn more about the chosen language. I would also create a story for each of the research tasks, such as those resources identified as high risk. I left researching tools, or APIs, such as the weather API or gathering vegetable data until starting the story, at which point it was almost too when, as my schedule has only considered implementation timings. I would have made stories for UX improvements. For example, I hadn't a story about creating the navigation bar at the bottom of the screen, becuase I hadn't given it much thought. Although it appeared in the mock-ups, my stories were created from user requirements, where they understandly, assume there is some sort of navigation, and therefore don't state it. It also took a few hours work to test a few different navigation bar component libraries before choosing one and a story could have tracked this work more transparently.  
 
-bad:
-If I were to do the project again, I would first schedule time upfront to learn more about the chosen language. I would also create a story for each of the research tasks, such as those resources identified as high risk. I left researching tools, or APIs, such as the weather API or gathering vegetable data until starting the story, at which point it was almost too when, as my schedule has only considered implementation timings. I should have spend more time mitigating the risks of not finding certial resources before development work started. 
-
-I would make stories for UX, if I had known what an important aspect this would be. For example, I hadn't a story about creating the navigation bar at the bottom of the screen, becuase I hadn't given it much thought. Although it appeared in the mock-ups, my stories were created from user requirements, where they understandly, assume there is some sort of navigation, and therefore don't state it. It also took a few hours work to test a few different navigation bar component libraries before choosing one and a story could have tracked this work more transparently.  
-
-Throughout, I would have liked to do more testing. When estimating story times and my project schedule, I should have factored in an extra hour for each story to implement tests. I did some basic test-driven development when I was struggling on something particular, however I will now go back and add some more.
-
-Although an app was prefereable from initial requirements, I could have spent more time looking into other options, For example, web apps are now websites just displayed on decive in a more effective way, which could have worked. However, I wouldn't have got to learn React Native.
-
-Further observations about how I tackled the project are inlcuded in Appendix 25.
+Throughout, I would have liked to do more testing. When estimating story times and my project schedule, I should have factored in an extra hour for each story to implement tests. I did some basic test-driven development when I was struggling on something particular, however I will now go back and add some more. Although an app was prefereable from initial requirements, I could have spent more time looking into other options, For example, web apps are now websites just displayed on decive in a more effective way, which could have worked. However, I wouldn't have got to learn React Native. Further observations about how I tackled the project are inlcuded in Appendix 25.
 
 ## Project Management
 
@@ -31,7 +18,7 @@ I am finding myself working on smaller fixes, planning or writing up notes, in t
 
 As WaterScrumFall has three distinct phrases, the first being "Water", it provided the upfront structure of Waterfall, which I wanted as I was closely folling TM354 Case Study steps which were in a Waterfall approach. I was able to gather and analysis requirements, design the database and HCI designs and complete as much upfront preparation as possible which the project benefitted from. 
 
-The "Scrum" approach to implementation allowed me to develop an MVP, which took four weeks. I was able to have users verfiy the system, proivde feedback from both the mock-ups (Appendix 19) and MVP (Appendix 26). From this, I generated the "Improvement", or "Version 2" stories. This has been great becuase although I get upfront requirements, users don't know exactly what they would like until they have sometime to test and look at. On think I haven't dont much of is testing, as I have felt the pressure to get a working software, which is something I'm going to work on over the next iteration. I now have a small group of stories which I will discuess in section x, as part of the upcoming plan. 
+The "Scrum" approach to implementation allowed me to develop an MVP, which took four weeks. I was able to have users verfiy the system, proivde feedback from both the mock-ups (Appendix 19) and MVP (Appendix 24). From this, I generated the "Improvement", or "Version 2" stories. This has been great becuase although I get upfront requirements, users don't know exactly what they would like until they have sometime to test and look at. On think I haven't dont much of is testing, as I have felt the pressure to get a working software, which is something I'm going to work on over the next iteration.
 
 The final "Fall" phrase, will be the "release" the the software. I will again gather feedback from users. As a whole, I think WaterScrumFall has been a well suited and efficent process for this project. More discussion of its effectiveness will be included in the final report. 
 
@@ -49,16 +36,16 @@ I then have a wedding weekend away. I'm hoping this will be a nice rest before t
 
 ![gantt chart updated with improv.png](../../Zettlr_Images/gantt chart updated with improv.png)
 
-figure x: The Gantt chart in Figure x shows this updated schedule. 
+Gigure 16: The Gantt chart showing the projects updated schedule
 
-![mvp todo1.png](../../Zettlr_Images/mvp todo1.png "mvp todo1.png")
-![mvp todo2.png](../../Zettlr_Images/mvp todo2.png)
-figure x:
+![v2 1.png](../../Zettlr_Images/v2 1.png)
+![v2 2.png](../../Zettlr_Images/v2 2.png)
+
+Figure 17: GitHub V2 column showing upcoming stories to be implemented
 
 ### Resources
 
-To complete the above, Figure xxx shows a list of Resources that have been identified since TMA02 required to complete the final version of the system. . Appendix 28 includes previously identified Resources, that are already in progress with updated where required.
-
+Below shows the Resources identified since TMA02, which are required for project completion. Appendix 28 includes previously identified Resources, which have been updated where where necessary.
 
 |     |     |     |
 | --- | --- | --- |
@@ -72,11 +59,13 @@ To complete the above, Figure xxx shows a list of Resources that have been ident
 | images | For vegetables, preferable odd shaped | Fine freely available |
 | RSpec | For back end testing | Already installed and set up |
 | Jest | For front end testing | To install and set up [<ins>https://jestjs.io/</ins>](https://jestjs.io/) ref |
-| OU Library Services | For literature research | Accesible via OU website |
+| OU Library Services | For literature research | Accesible via OU website | 
+
+Table 2: List of Resources
 
 ## Risks
 
-Figure x shows an evaluation of risks, associated with both the current of previous resources, stating which are not longer likely to be a risk to the project. with the above resources. A list of skills associated with the project is provided in Appendix 29. 
+Below shows an evaluation of risks, associated with current and previous resources. A list of skills associated with the project is provided in Appendix 29. 
 
 |     |     |     |     |
 | --- | --- | --- | --- |
@@ -94,6 +83,7 @@ Figure x shows an evaluation of risks, associated with both the current of previ
 | Images not found | L   | M   | I am going to use images that I have taken of our plot. These images will be used on the the vegetable detail page |
 | Vegetable icons not found | L   | M   | I was hoping to use icon for the timeline. If I cant find any, I can use the images above |
 |     |     |     |     |
+Table 3: List of Skills
 
 ## Review your personal development (1428/1000)
 
@@ -111,7 +101,7 @@ Although I have previous experiece with Rails, I haven't created a Rails service
 
 Designing the database was also interesting, becuase although I have maintained and developed databases, they have never been from scratch. There was a few iterations of the database design (Appendix 31) and I found it a good activity to decide which tables certain attribtues should belong to. For example,  frost dates was originall going to be stored on a plot, depending on their location. However, as this is now a stubbed value, it might not need to be in a database at all, becuase it is unlikely to change. Additionally, sow, plant and harvest dates were going to be dependent on this frost date, which could have been different for each plot location. This meant that the dates could be stored on the PlotVegetable entity. However, since the decision to stub frost dates, this is no longer the case, and specific dates can be stored against the vegetable. This lead to the problem solving things like how to store these dates, which was required to show in a timeline. This was an interesting problem becuase MySQL database doesn't have a List as a type, so I had to be a bit creative and think of alternatives. 
 
-The development of working prototypes for both Vue Cordova and React Native was a big learning curve, as described in Appendix 32, yet carrying my learning experiences from one prototype to another was very rewarding and it put me in a good position to choose between the two, knowing they both fundamentally work. I also learnt about networking and IP addresses becuase of this. As the React Native application was running in a Expo emulator, it wasn't realising that it was running on the same `localhost` as the Rails API. I then updated the request to point to the laptops IP address. The request then timed out, which was progress. A Stack Overflow answer [@rice_answer_2019] solved this exact problem, suggesting binding the Rails server to 0.0.0.0, which was successful as my phone accessed bank-end data over the internet. This internet dependency was confirmed when developing the application in the car. I hotspotted which changed my laptops IP address because of the different network. Updating the front-end request to use the new IP successfully served the back-end data again. 
+The development of working prototypes for both Vue Cordova and React Native was a big learning curve, as described in Appendix 32, yet carrying my learning experiences from one prototype to another was very rewarding and it put me in a good position to choose between the two, knowing they both fundamentally work. I also learnt about networking and IP addresses becuase of this. As the React Native application was running in a Expo iOS Simulator, it wasn't realising that it was running on the same `localhost` as the Rails API. I then updated the request to point to the laptops IP address. The request then timed out, which was progress. A Stack Overflow answer [@rice_answer_2019] solved this exact problem, suggesting binding the Rails server to 0.0.0.0, which was successful as my phone accessed bank-end data over the internet. This internet dependency was confirmed when developing the application in the car. I hotspotted which changed my laptops IP address because of the different network. Updating the front-end request to use the new IP successfully served the back-end data again. 
 
 Another main learning was around UX. After the MVP feedback included lots of UI changes, I started to implement CSS styling improvements manually. As shown in Appendix 33, this wasn't very successful. I researched and implemented a few React Libraries for styling and settled on the simple React Native Material (ref). MUI was the alternative, which looks very professional, but possibly overly complicated for this system. Additionally, it was interesting trying to find libraries to support the Timeline feature. Sysnoymns such as timetable, calendar, data grid, data table, gantt chart all have many results when researching. This process took longer than expected, and I should have considered more time for this research or a seperate story. I ended up implementing this tool for the Timeline ([here](https://callstack.github.io/react-native-paper/data-table.html))
 
@@ -126,5 +116,6 @@ A few questions:
 * Would you like more updates of my progress
 * Is there anything telling about why which Learning objectives have been placed together, I assume this grouping is to influence the word count?
 * I found it hard to distinguish "review of current stage of project work" and "personal development". 
+* Should  MVP feedback  and Improvement feedback be in appendixes or main body
 
 

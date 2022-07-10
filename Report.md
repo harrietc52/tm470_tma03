@@ -68,7 +68,7 @@ Based on all 3 TMAs, alphabetic order of author, Harvard cite them right otherwi
 - Correct order
 
 Appendix 1: Some technical notes on the method used  
-(re. Section 2.1)
+
 
 Appendix 2: Warbottle membership figures – 1900–1985  
 (re. Section 2.2.1)
@@ -76,6 +76,7 @@ Appendix 2: Warbottle membership figures – 1900–1985
 ## Appendix 1
 
 Responses from the Requirement Gathering Questionnaire
+(re. Section )
 
 ![questionnaire1.png](../../Zettlr_Images/questionnaire1.png)
 
@@ -85,6 +86,7 @@ Responses from the Requirement Gathering Questionnaire
 ## Appendix 2
 
 how project is based  off
+(re. Section )
 
 **domain**
 had an allotment for 4 years, verying suggest, lots of tips. where the main questions were around "when", not what or where. (ref allotment book, month by month)
@@ -124,6 +126,7 @@ and mobile development
 ## Appendix 3
 
 moscow prioritisiation
+(re. Section )
 
 Some technical notes on the method used  
 (re. Section 2.1)
@@ -170,9 +173,8 @@ Table xx: Version 3 of Mosco prioritisation (Appendix xx, version 1 and 2)
 
 ## Appendix 4
 
-software development lifecycle comparison
-
-Lifecycle choices from TMA01 and WaterScrumFall
+software development lifecycle comparison/ Lifecycle choices from TMA01 and WaterScrumFall
+(re. Section )
 
  
 | Feature       | Scrum                                                                                                                        | Waterfall                                                                                                     | Kanban                                                                                    | Water-Scrum-Fall                     |
@@ -187,6 +189,7 @@ Lifecycle choices from TMA01 and WaterScrumFall
 ## Appendix 5
 
 Projects problem statement
+(re. Section )
 
 Note:  This includes some features which have since been deprioritised.
 
@@ -206,6 +209,7 @@ In the new system it must be possible to automate the creation of a Growing Time
 ## Appendix 6 
 
 Existing Vegetable Growing applications
+(re. Section )
 
 | Name                                   | Type    | Notes                                                                                                                              | Features                                                                                                                                                              |
 |----------------------------------------|---------|------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -220,6 +224,7 @@ Existing Vegetable Growing applications
 
 ## Appendix 7
 React Native vs Cordova
+(re. Section )
 
 Comparing front-end Frameworks
 However, React Native was later chosen for front-end development, for reasons explained in Appendix 7.
@@ -232,7 +237,8 @@ However, React Native was later chosen for front-end development, for reasons ex
 
 ## Appendix 8
  differences between the Functional and class components are summarised in Appendix 10
- 
+ (re. Section )
+
   [@akshat_react_2019] 
  
 ## Appendix 9
@@ -240,6 +246,7 @@ However, React Native was later chosen for front-end development, for reasons ex
  **LESPI**
 
 Review of literature which influence the LESP project concerns is provided in Appendix 11. 
+(re. Section )
 
 
 (TMA02)
@@ -257,6 +264,7 @@ personal data [@ico_what_2021]
 ## Appendix 10
 
  How the questionnaire was designed
+(re. Section )
 
 * first made a list of how I manage the growing of our vegetables, what I do, don't do, know about, would like to do more of
 * conducted some research in what allotment management applications exist, and what features they have
@@ -273,6 +281,7 @@ personal data [@ico_what_2021]
 
 ## Appendix 11
 Summary of headings in the Requirement Gathering Questionnaire
+(re. Section )
 
 * General: two high level questions asking what does the grower use currently to managed, notes or other apps
 * Vegetable information: how do they what to plant, when, and how much.
@@ -285,12 +294,14 @@ Summary of headings in the Requirement Gathering Questionnaire
 ## Appendix 12
 
 further learning
+(re. Section )
 
 For the initial questionnaire, I hadn’t considered how I would analyse the results or the number of responses I would recieve. Although the 42 responses came steadily, fewer questions would have sufficed. I took this learning into the second “Timeline vs Task vs Calendar” questionnaire, which instead included one question with three multiple choice answers, which was much easier to process. (Appendix 5) What I have learnt from this is that an important factor in designing questionnaires is to think how the information will be processed.
 
 ## Appendix 13
 
 analyse requirements [story](https://github.com/harrietc52/TM470/issues/22)
+(re. Section )
 
 
 ![analysis of qu.png](../../Zettlr_Images/analysis of qu.png)
@@ -300,6 +311,7 @@ analyse requirements [story](https://github.com/harrietc52/TM470/issues/22)
 ## Appendix 14
 
 Story Card examples
+(re. Section )
 
 add more
 
@@ -308,6 +320,7 @@ add more
 ## Appendix 15
 
 *** todo update !!!
+(re. Section )
 
 ![volere1.png](../../Zettlr_Images/volere1.png)
 
@@ -317,7 +330,8 @@ add more
 
 ## Appendix 16 
 - compare Research web vs native vs hybrid [story](https://github.com/harrietc52/TM470/issues/20)
-- 
+(re. Section )
+
 Hybrid development seems the most appropriate as there would be a single code base for all platforms, and a variety of languages and frameworks can be used. Hybrid applications also benefit from the device’s sensors, making it a fitting choice for an app which may require location data, camera facilities and notifications. (TM352) However,
 
 
@@ -328,6 +342,7 @@ TM352 EMA [here](https://docs.google.com/document/d/1j8xN9oY8ZQNU5VNqXq9aBauBTAB
 
 ## Appendix 17
 **Potential concepts:**
+(re. Section )
 
 Tangible objects: Computer system, Allotment, Phone, Plot, Vegetables, Crops, Soil, Notes, Seeds, Patch
 Roles: Growers
@@ -349,7 +364,15 @@ Organisational units: Allotment, Weather Forecaster
 | Patch           | Tangible object | No. Synonym for Plot                                                                                    |
 | Growers         | Roles           | No, duplicate                                                                                           |
 
+## Appendix 17b
+Initial sketch from TMA01
+
+![rough_sketch.png](../../Zettlr_Images/rough_sketch.png)
+
+
 ## Appendix 18
+xxxx
+(re. Section )
 
 Option 1: 
 ![qu op1.png](../../Zettlr_Images/qu op1.png)
@@ -385,6 +408,7 @@ Final mock uip of Timeline
 
 ## Appendix 19
 Mockup Design Feedback
+(re. Section )
 
 | Person | Comment                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -397,6 +421,7 @@ Mockup Design Feedback
 ## Appendix 20
 
 git commits
+(re. Section )
 
 
 ![rails git commit.png](../../Zettlr_Images/rails git commit.png)
@@ -406,7 +431,8 @@ Figure: rails commit messages
 Figure: react native /expo  commit messages
 
 ## Appendix 21
-
+xxxx
+(re. Section )
 
 
 ![rails project structure.png](../../Zettlr_Images/rails project structure.png)
@@ -417,17 +443,18 @@ Figure: react native/ expo project structure
 ## Appendix 22
 
 code
+(re. Section )
 
 REDUX
 
 ![code redux veg action.png](../../Zettlr_Images/code redux veg action.png)
 
 
-
 Config screenshot of db Seed code
 
 ## Appendix 23
 analysis tools used in project
+(re. Section )
 
 I am using Zotero as a reference manager and I have got better at saving the a reference to Zotero straight away from the browser plug in, and then writing up in the journal my days learning. However, I would have benefitted from adding reference specific notes at the time of saving, becuase I has been hard to remember exactly what conent was used in a reference for a particular task when it has come to writing up TMAs. Learning the PROMPT (ref) method has helped me to criticially evaluate references, something that I need to continue to work on before the EMA. Along side papers and official documentation, the project has extremely benefited from Stack Overflow posts. When I have been stuck on a particular problem, the majority of time Stack Overflow has a post discussing something similar. (Appendix xx)
 
@@ -435,12 +462,27 @@ Postman was a tool which also helped during development of the Rails API. (ref) 
 
 As for project management, I have learnt how to use Gantt charts and appreciate the value of them as I have referred back to and updated mine lots throughout the project. It was particularly useful when estimating how much development work could be completed when decidign scope. Although I have used my Project Journal increasingly more, stating what I have done each session, I have been using GitHub story cards more.
 
-GitHub has been an invalueable tool for this project. Each sub-task has a individual card, where I have been able to add notes, images, tables etc, all in markdown so they can be copy and pasted directly into my word processor, Zettlr. This has and pulling in information for the TMAs more straight forward. The project board with column: Todo, doing and done makes it easy to see the current and upcoming state of work. Card can be moved, and therefore priotisied easily, as well as grouped into "Milestones". In my WaterScrumFall process, these have acted like stages. (appendix 30) Finally, cards can have labels, which has been useful when assigning sizes to cards, as these can be filtered easily. However, the card almost make it too easy, and it can get a little unorganised. For the final few months, I will try an maintain the journal better and organise the information I add to cards better.
+GitHub has been an invalueable tool for this project. Each sub-task has a individual card, where I have been able to add notes, images, tables etc, all in markdown so they can be copy and pasted directly into my word processor, Zettlr. This has and pulling in information for the TMAs more straight forward. The project board with column: Todo, doing and done makes it easy to see the current and upcoming state of work. Card can be moved, and therefore priotisied easily, as well as grouped into "Milestones". In my WaterScrumFall process, these have acted like stages. (appendix 30) Finally, cards can have labels, which has been useful when assigning sizes to cards, as these can be filtered easily. However, the card almost make it too easy, and it can get a little unorganised. For the final few months, I will try an maintain the journal better and organise the information I add to cards better. I have also used GitHub to version control my TMAs acts as a backups. 
 
 ## Appendix 24
-Project journal
+
+MVP feedback
+(re. Section )
+
+| Person | Feedback |
+| --- | --- |
+| SC  | I didn’t think the “Welcome” Page had enough on it - wasn’t that “welcoming” if you know what I mean - a few more veggie graphics & perhaps some encouraging words for those just starting out on allotment ownership… ?!? I also thought the vegetable graphics all looked the same too & would be good if they were veggie specific - possibility of any extra ?! “Top Tips” for creating excellent compost area … how to build your own shed …. Maybe links to other useful sites - eg RHS …. |
+| HC  | the functionality looks like it's already really good! I feel like it is mainly visual stuff that I would edit, so as you said maybe make it less white and more green and add a few more pictures/graphics. And then the only other thing I noticed was the timetable grid is a little off, I'm not sure if it can be better aligned to have the icons directly under months? And yes the remove vegetable function I would say seems important |
+| PM  | Think it's looking brilliant. Really like the timetable at the end. - Is there any way of removing/deleting a plot or veg once added? - Will there be any sort of tooltips or guidance for those that are less digitally literate? - Is there a search functionality if someone has e.g. multiple plots or multiple veg added to find which veg is in which plot etc. - Calendar function to 'look ahead' and see what's coming up in terms of planting or harvestin - Can you view vegetables before adding them to the plot? Maybe recommendations on what to plant? - Pictures of the different veg for those of us who have no idea what Swiss chard looks like - Ability to upload photos of each planted veg maybe?! |
+| FC  | It's amazing, well done. Couple of notes: - Do you need a 'Sign in' button as well as a 'Sign up' button after an account has been made or are you assuming you always remain signed in? If not you could make the Welcome page more personal? So it says 'Welcome Harriet' if they add their first name. - Need a plus sign to show where you can add vegetables to the plot page. - Need a plus sign on timetable or do you click on 'seed' to add a date? - Where will the 'frost dates' appear? Will it be on the timeline- can you use a frost icon for this? |
+| JO  | \- national trust green would be better than purple - I missed the location checkbox, make it bigger/ better description. - I wasn't sure how to add a vegetable to the plot, can a add button be on the plot screen. - There was no feedback when adding a veg to the plot. - Add image of veg in timeline or three letters. - When clicking on the nav bar, I expected to be taken back to respective home pages, not the screen where I had last visited (eg veg description) |
+
 
 ## Appendix 25
+Project journal
+(re. Section )
+
+## Appendix 26
 * _LO5_ critical review tackle project:  _(Appendix)_
     * critically review how you have tackled the project 
         * EMA only, but start thinking about it after TMA03
@@ -463,19 +505,10 @@ Project journal
         * more reflection after each story, not just in journal but in github card
 
 
-## Appendix 26
-MVP feedback
-
-| Person | Feedback |
-| --- | --- |
-| SC  | I didn’t think the “Welcome” Page had enough on it - wasn’t that “welcoming” if you know what I mean - a few more veggie graphics & perhaps some encouraging words for those just starting out on allotment ownership… ?!? I also thought the vegetable graphics all looked the same too & would be good if they were veggie specific - possibility of any extra ?! “Top Tips” for creating excellent compost area … how to build your own shed …. Maybe links to other useful sites - eg RHS …. |
-| HC  | the functionality looks like it's already really good! I feel like it is mainly visual stuff that I would edit, so as you said maybe make it less white and more green and add a few more pictures/graphics. And then the only other thing I noticed was the timetable grid is a little off, I'm not sure if it can be better aligned to have the icons directly under months? And yes the remove vegetable function I would say seems important |
-| PM  | Think it's looking brilliant. Really like the timetable at the end. - Is there any way of removing/deleting a plot or veg once added? - Will there be any sort of tooltips or guidance for those that are less digitally literate? - Is there a search functionality if someone has e.g. multiple plots or multiple veg added to find which veg is in which plot etc. - Calendar function to 'look ahead' and see what's coming up in terms of planting or harvestin - Can you view vegetables before adding them to the plot? Maybe recommendations on what to plant? - Pictures of the different veg for those of us who have no idea what Swiss chard looks like - Ability to upload photos of each planted veg maybe?! |
-| FC  | It's amazing, well done. Couple of notes: - Do you need a 'Sign in' button as well as a 'Sign up' button after an account has been made or are you assuming you always remain signed in? If not you could make the Welcome page more personal? So it says 'Welcome Harriet' if they add their first name. - Need a plus sign to show where you can add vegetables to the plot page. - Need a plus sign on timetable or do you click on 'seed' to add a date? - Where will the 'frost dates' appear? Will it be on the timeline- can you use a frost icon for this? |
-| JO  | \- national trust green would be better than purple - I missed the location checkbox, make it bigger/ better description. - I wasn't sure how to add a vegetable to the plot, can a add button be on the plot screen. - There was no feedback when adding a veg to the plot. - Add image of veg in timeline or three letters. - When clicking on the nav bar, I expected to be taken back to respective home pages, not the screen where I had last visited (eg veg description) |
 ## Appendix 27
 
 original gantt chart
+(re. Section )
 
 
 
@@ -483,6 +516,7 @@ original gantt chart
 
 ## Appendix 28
 old resources
+(re. Section )
 
 |     |     |     |
 | --- | --- | --- |
@@ -502,6 +536,7 @@ old resources
 
 ## Appendix 29
 list of skills i have stated needed development, and how they have been developeed. any needed 
+(re. Section )
 
 | **Skill **          | How I have developed the skill since TMA01                                                                   |
 |---------------------|--------------------------------------------------------------------------------------------------------------|
@@ -522,6 +557,7 @@ list of skills i have stated needed development, and how they have been develope
 ## Appendix 30
 
 details of learning from individual stories
+(re. Section )
 
 _Then explored details of implementation in Rails, in particular how to realise attributes, associations and behaviour. Attribute types, user-defined types. Implemetnat associagtions with multiplicity, variable or collections, then implement operations. 
 
@@ -621,8 +657,10 @@ eslint-plugin
 
 ## Appendix 31
 database versions
+(re. Section )
 
 ## Appendix 32
+(re. Section )
 
 Setting up Cordova proved complex. Cordova requires XCode to run the iOS simulator. I am developing on my work laptop so didn’t have the correct permissions to install XCode. It also required a lot of memory. Firstly, I installed a too recent version of XCode for my operating system. Then, the XCode command line was not picking up the “PATH” of the more recent version.
 
@@ -639,5 +677,6 @@ The development of working prototypes for both Vue Cordova and React Native was 
 
 
 ##  Appendix 33
+(re. Section )
 
 ux with own styling
