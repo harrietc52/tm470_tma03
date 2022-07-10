@@ -503,3 +503,4 @@ This section should be the result of ongoing reflection as you develop your proj
 
 TM358 EMA for first 3 weeks after TMA02
 
+; as the React Native application was running in an Expo iOS Simulator, it wasn’t realising that it was running on the same localhost as the Rails API. Updating the request to point to the laptops IP address resulted in a time out. A Stack Overflow answer (Rice, 2019) solved this exact problem, suggesting binding the Rails server to 0.0.0.0, which was successful as my phone accessed bank-end data over the internet. This internet dependency was confirmed when developing the application in the car. I hot spotted which changed my laptops IP address because of the different network. Updating the front-end request to use the new IP successfully served the back-end data again.
